@@ -1,0 +1,273 @@
+# Loc 1: Stoc scăzut pentru un produs
+if product.stock < 10:
+    logger.warning(f"Stoc scăzut pentru produsul {product.name} (loc 1).")
+
+# Loc 2: Tentativă de acces neautorizat
+logger.warning(f"Tentativă de acces neautorizat de la IP {request.META.get('REMOTE_ADDR')} (loc 2).")
+WARNING 2025-01-13 15:30:33,399 log Not Found: /favicon.ico
+WARNING 2025-01-13 15:30:33,400 basehttp "GET /favicon.ico HTTP/1.1" 404 2513
+WARNING 2025-01-13 15:52:32,613 log Not Found: /aidiuq
+WARNING 2025-01-13 15:52:32,613 basehttp "GET /aidiuq HTTP/1.1" 404 2498
+WARNING 2025-01-13 15:53:08,704 log Not Found: /favicon.ico
+WARNING 2025-01-13 15:53:08,704 basehttp "GET /favicon.ico HTTP/1.1" 404 2513
+WARNING 2025-01-13 15:53:12,745 log Not Found: /aaa
+WARNING 2025-01-13 15:53:12,746 basehttp "GET /aaa HTTP/1.1" 404 2489
+WARNING 2025-01-13 15:56:52,254 log Not Found: /magazin
+WARNING 2025-01-13 15:56:52,255 basehttp "GET /magazin HTTP/1.1" 404 2501
+WARNING 2025-01-13 15:57:02,866 log Not Found: /magazin/
+WARNING 2025-01-13 15:57:02,867 basehttp "GET /magazin/ HTTP/1.1" 404 5656
+WARNING 2025-01-13 15:57:08,701 log Not Found: /magazin/403
+WARNING 2025-01-13 15:57:08,702 basehttp "GET /magazin/403 HTTP/1.1" 404 5665
+WARNING 2025-01-13 16:04:49,251 log Not Found: /accounts/profile/
+WARNING 2025-01-13 16:04:49,252 basehttp "GET /accounts/profile/ HTTP/1.1" 404 2531
+WARNING 2025-01-13 16:04:59,951 log Not Found: /accounts/profile/
+WARNING 2025-01-13 16:04:59,952 basehttp "GET /accounts/profile/ HTTP/1.1" 404 2531
+WARNING 2025-01-13 16:16:26,155 log Not Found: /promotions
+WARNING 2025-01-13 16:16:26,156 basehttp "GET /promotions HTTP/1.1" 404 2510
+WARNING 2025-01-13 16:19:26,543 base Method Not Allowed (GET): /magazin/logout/
+WARNING 2025-01-13 16:19:26,543 log Method Not Allowed: /magazin/logout/
+WARNING 2025-01-13 16:19:26,543 basehttp "GET /magazin/logout/ HTTP/1.1" 405 0
+WARNING 2025-01-13 16:19:27,910 base Method Not Allowed (GET): /magazin/logout/
+WARNING 2025-01-13 16:19:27,911 log Method Not Allowed: /magazin/logout/
+WARNING 2025-01-13 16:19:27,911 basehttp "GET /magazin/logout/ HTTP/1.1" 405 0
+WARNING 2025-01-13 16:19:29,082 base Method Not Allowed (GET): /magazin/logout/
+WARNING 2025-01-13 16:19:29,083 log Method Not Allowed: /magazin/logout/
+WARNING 2025-01-13 16:19:29,084 basehttp "GET /magazin/logout/ HTTP/1.1" 405 0
+WARNING 2025-01-13 16:19:49,844 base Method Not Allowed (GET): /magazin/logout/
+WARNING 2025-01-13 16:19:49,845 log Method Not Allowed: /magazin/logout/
+WARNING 2025-01-13 16:19:49,845 basehttp "GET /magazin/logout/ HTTP/1.1" 405 0
+WARNING 2025-01-13 16:21:19,852 log Not Found: /accounts/profile/
+WARNING 2025-01-13 16:21:19,852 basehttp "GET /accounts/profile/ HTTP/1.1" 404 2531
+WARNING 2025-01-13 16:21:42,571 log Not Found: /accounts/profile
+WARNING 2025-01-13 16:21:42,572 basehttp "GET /accounts/profile HTTP/1.1" 404 2528
+WARNING 2025-01-13 16:23:20,162 log Not Found: /accounts/profile
+WARNING 2025-01-13 16:23:20,163 basehttp "GET /accounts/profile HTTP/1.1" 404 2528
+WARNING 2025-01-13 16:25:29,132 log Not Found: /login
+WARNING 2025-01-13 16:25:29,133 basehttp "GET /login HTTP/1.1" 404 2495
+WARNING 2025-01-13 16:25:49,899 log Not Found: /accounts/profile/
+WARNING 2025-01-13 16:25:49,899 basehttp "GET /accounts/profile/ HTTP/1.1" 404 2531
+WARNING 2025-01-13 16:32:39,489 base Method Not Allowed (GET): /magazin/logout/
+WARNING 2025-01-13 16:32:39,490 log Method Not Allowed: /magazin/logout/
+WARNING 2025-01-13 16:32:39,490 basehttp "GET /magazin/logout/ HTTP/1.1" 405 0
+WARNING 2025-01-13 16:37:58,618 log Not Found: /accounts/login/
+WARNING 2025-01-13 16:37:58,618 basehttp "GET /accounts/login/?next=/magazin/profile/ HTTP/1.1" 404 2548
+WARNING 2025-01-13 16:38:06,636 log Not Found: /accounts/login/
+WARNING 2025-01-13 16:38:06,637 basehttp "GET /accounts/login/?next=/magazin/profile/ HTTP/1.1" 404 2548
+WARNING 2025-01-13 16:38:08,797 log Not Found: /accounts/login/
+WARNING 2025-01-13 16:38:08,797 basehttp "GET /accounts/login/?next=/magazin/profile/ HTTP/1.1" 404 2548
+WARNING 2025-01-13 16:38:47,068 log Not Found: /403/
+WARNING 2025-01-13 16:38:47,068 basehttp "GET /403/?next=/magazin/promotions/ HTTP/1.1" 404 2518
+WARNING 2025-01-13 16:39:43,459 log Not Found: /403/
+WARNING 2025-01-13 16:39:43,459 basehttp "GET /403/?next=/magazin/promotions/ HTTP/1.1" 404 2518
+WARNING 2025-01-13 16:41:43,303 log Not Found: /403/
+WARNING 2025-01-13 16:41:43,304 basehttp "GET /403/?next=/magazin/promotions/ HTTP/1.1" 404 2518
+WARNING 2025-01-13 16:59:11,211 log Not Found: /accounts/login/
+WARNING 2025-01-13 16:59:11,211 basehttp "GET /accounts/login/?next=/magazin/profile/ HTTP/1.1" 404 2548
+WARNING 2025-01-13 16:59:16,753 log Not Found: /accounts/login/
+WARNING 2025-01-13 16:59:16,754 basehttp "GET /accounts/login/?next=/magazin/profile/ HTTP/1.1" 404 2548
+WARNING 2025-01-13 16:59:52,266 log Not Found: /accounts/login/
+WARNING 2025-01-13 16:59:52,267 basehttp "GET /accounts/login/?next=/magazin/profile/ HTTP/1.1" 404 2548
+WARNING 2025-01-13 16:59:56,724 log Not Found: /magazin/
+WARNING 2025-01-13 16:59:56,724 basehttp "GET /magazin/ HTTP/1.1" 404 5656
+WARNING 2025-01-13 17:00:01,293 log Not Found: /accounts/login/
+WARNING 2025-01-13 17:00:01,294 basehttp "GET /accounts/login/?next=/magazin/profile/ HTTP/1.1" 404 2548
+WARNING 2025-01-13 17:00:02,244 log Not Found: /accounts/login/
+WARNING 2025-01-13 17:00:02,245 basehttp "GET /accounts/login/?next=/magazin/profile/ HTTP/1.1" 404 2548
+WARNING 2025-01-13 17:03:17,501 log Not Found: /accounts/login/
+WARNING 2025-01-13 17:03:17,502 basehttp "GET /accounts/login/?next=/magazin/profile/ HTTP/1.1" 404 2548
+WARNING 2025-01-13 17:03:19,815 log Not Found: /403/
+WARNING 2025-01-13 17:03:19,816 basehttp "GET /403/?next=/magazin/promotions/ HTTP/1.1" 404 2518
+WARNING 2025-01-13 17:03:21,817 log Not Found: /403/
+WARNING 2025-01-13 17:03:21,818 basehttp "GET /403/?next=/magazin/promotions/ HTTP/1.1" 404 2518
+WARNING 2025-01-13 17:06:26,468 log Not Found: /403/
+WARNING 2025-01-13 17:06:26,468 basehttp "GET /403/ HTTP/1.1" 404 2492
+WARNING 2025-01-13 17:06:46,669 log Not Found: /accounts/login/
+WARNING 2025-01-13 17:06:46,670 basehttp "GET /accounts/login/?next=/magazin/profile/ HTTP/1.1" 404 2548
+WARNING 2025-01-13 17:06:49,916 log Not Found: /accounts/login/
+WARNING 2025-01-13 17:06:49,916 basehttp "GET /accounts/login/?next=/magazin/profile/ HTTP/1.1" 404 2548
+WARNING 2025-01-13 17:08:29,534 log Forbidden: /magazin/403/
+WARNING 2025-01-13 17:08:29,534 basehttp "GET /magazin/403/ HTTP/1.1" 403 379
+WARNING 2025-01-13 17:08:35,435 log Not Found: /]
+WARNING 2025-01-13 17:08:35,435 basehttp "GET /] HTTP/1.1" 404 2485
+WARNING 2025-01-13 17:09:53,710 log Not Found: /403/
+WARNING 2025-01-13 17:09:53,710 basehttp "GET /403/?next=/magazin/promotions/ HTTP/1.1" 404 2518
+WARNING 2025-01-13 17:09:54,454 log Not Found: /403/
+WARNING 2025-01-13 17:09:54,454 basehttp "GET /403/?next=/magazin/promotions/ HTTP/1.1" 404 2518
+WARNING 2025-01-13 17:11:57,986 log Not Found: /403/
+WARNING 2025-01-13 17:11:57,986 basehttp "GET /403/?next=/magazin/promotions/ HTTP/1.1" 404 2518
+WARNING 2025-01-13 17:12:03,274 log Not Found: /403/
+WARNING 2025-01-13 17:12:03,274 basehttp "GET /403/?next=/magazin/promotions/ HTTP/1.1" 404 2518
+WARNING 2025-01-13 17:13:20,862 log Not Found: /magazin/promotions/magazin/403/
+WARNING 2025-01-13 17:13:20,863 basehttp "GET /magazin/promotions/magazin/403/?next=/magazin/promotions/ HTTP/1.1" 404 6008
+WARNING 2025-01-13 17:13:27,126 log Not Found: /magazin/promotions/magazin/403/
+WARNING 2025-01-13 17:13:27,126 basehttp "GET /magazin/promotions/magazin/403/?next=/magazin/promotions/ HTTP/1.1" 404 6008
+WARNING 2025-01-13 17:13:37,737 log Not Found: /magazin/promotions/magazin/403/
+WARNING 2025-01-13 17:13:37,737 basehttp "GET /magazin/promotions/magazin/403/?next=/magazin/promotions/ HTTP/1.1" 404 6008
+WARNING 2025-01-13 17:13:39,791 log Forbidden: /magazin/403/
+WARNING 2025-01-13 17:13:39,791 basehttp "GET /magazin/403/ HTTP/1.1" 403 379
+WARNING 2025-01-13 17:17:29,496 log Not Found: /accounts/login/
+WARNING 2025-01-13 17:17:29,496 basehttp "GET /accounts/login/?next=/magazin/promotions/ HTTP/1.1" 404 2551
+WARNING 2025-01-13 17:17:38,067 log Not Found: /accounts/login/
+WARNING 2025-01-13 17:17:38,068 basehttp "GET /accounts/login/?next=/magazin/promotions/ HTTP/1.1" 404 2551
+WARNING 2025-01-13 17:17:39,672 log Not Found: /accounts/login/
+WARNING 2025-01-13 17:17:39,672 basehttp "GET /accounts/login/?next=/magazin/promotions/ HTTP/1.1" 404 2551
+WARNING 2025-01-13 17:18:06,447 log Not Found: /403
+WARNING 2025-01-13 17:18:06,447 basehttp "GET /403 HTTP/1.1" 404 2489
+WARNING 2025-01-13 17:18:13,788 log Not Found: /magazin/403/
+WARNING 2025-01-13 17:18:13,789 basehttp "GET /magazin/403/ HTTP/1.1" 404 5668
+WARNING 2025-01-13 17:32:15,486 basehttp "GET /magazin/promotions/ HTTP/1.1" 403 379
+WARNING 2025-01-13 17:32:17,512 basehttp "GET /magazin/promotions/ HTTP/1.1" 403 379
+WARNING 2025-01-13 17:36:20,093 log Not Found: /user/profile
+WARNING 2025-01-13 17:36:20,093 basehttp "GET /user/profile HTTP/1.1" 404 2516
+WARNING 2025-01-13 17:36:40,697 log Not Found: /magazin/prodfile
+WARNING 2025-01-13 17:36:40,698 basehttp "GET /magazin/prodfile HTTP/1.1" 404 5680
+WARNING 2025-01-15 12:19:41,880 log Not Found: /favicon.ico
+WARNING 2025-01-15 12:19:41,906 basehttp "GET /favicon.ico HTTP/1.1" 404 2513
+WARNING 2025-01-15 13:30:40,578 log Not Found: /admin/auth/user
+WARNING 2025-01-15 13:30:40,578 basehttp "GET /admin/auth/user HTTP/1.1" 404 7119
+WARNING 2025-01-15 13:30:44,324 log Not Found: /admin/auth/user/
+WARNING 2025-01-15 13:30:44,324 basehttp "GET /admin/auth/user/ HTTP/1.1" 404 7122
+WARNING 2025-01-15 13:31:21,551 log Not Found: /admin/auth/users/
+WARNING 2025-01-15 13:31:21,552 basehttp "GET /admin/auth/users/ HTTP/1.1" 404 7125
+WARNING 2025-01-15 13:54:39,105 log Not Found: /admin/auth/user
+WARNING 2025-01-15 13:54:39,106 basehttp "GET /admin/auth/user HTTP/1.1" 404 7119
+WARNING 2025-01-15 14:02:51,654 log Not Found: /favicon.ico
+WARNING 2025-01-15 14:02:51,654 basehttp "GET /favicon.ico HTTP/1.1" 404 2513
+WARNING 2025-01-15 14:03:18,199 basehttp "GET /magazin/add_product/ HTTP/1.1" 403 387
+WARNING 2025-01-15 14:05:59,545 basehttp "GET /magazin/add_product/ HTTP/1.1" 403 387
+WARNING 2025-01-15 14:07:07,511 basehttp "GET /magazin/add_product/ HTTP/1.1" 403 384
+WARNING 2025-01-15 14:42:24,264 log Forbidden: /magazin/offer/
+WARNING 2025-01-15 14:42:24,265 basehttp "GET /magazin/offer/ HTTP/1.1" 403 395
+WARNING 2025-01-15 14:45:58,887 log Not Found: /magazin/offers
+WARNING 2025-01-15 14:45:58,888 basehttp "GET /magazin/offers HTTP/1.1" 404 6219
+WARNING 2025-01-15 14:46:02,571 log Forbidden: /magazin/offer/
+WARNING 2025-01-15 14:46:02,571 basehttp "GET /magazin/offer/ HTTP/1.1" 403 395
+WARNING 2025-01-15 22:38:11,132 log Not Found: /favicon.ico
+WARNING 2025-01-15 22:38:11,149 basehttp "GET /favicon.ico HTTP/1.1" 404 2513
+WARNING 2025-01-15 22:38:56,487 log Not Found: /magazin
+WARNING 2025-01-15 22:38:56,488 basehttp "GET /magazin HTTP/1.1" 404 2501
+WARNING 2025-01-15 22:39:10,652 basehttp "GET /magazin/add_product/ HTTP/1.1" 403 384
+WARNING 2025-01-15 22:39:14,435 basehttp "GET /magazin/add_product/ HTTP/1.1" 403 384
+WARNING 2025-01-15 22:40:18,508 log Not Found: /magazin
+WARNING 2025-01-15 22:40:18,508 basehttp "GET /magazin HTTP/1.1" 404 2501
+ERROR 2025-01-15 22:40:22,713 log Internal Server Error: /magazin/add_product/
+Traceback (most recent call last):
+  File "C:\Users\calin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\base.py", line 510, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\calin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\calin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\UB\an2\Django\test\magazin\views.py", line 124, in add_product
+    return render(request, 'add_product.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\calin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\calin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\calin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\calin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\calin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\calin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\calin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\calin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\calin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\calin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\calin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\base.py", line 512, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\calin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\base.py", line 573, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 6: 'static'. Did you forget to register or load this tag?
+ERROR 2025-01-15 22:40:22,732 basehttp "GET /magazin/add_product/ HTTP/1.1" 500 145549
+ERROR 2025-01-15 22:40:24,787 log Internal Server Error: /magazin/add_product/
+Traceback (most recent call last):
+  File "C:\Users\calin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\base.py", line 510, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\calin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\calin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\UB\an2\Django\test\magazin\views.py", line 124, in add_product
+    return render(request, 'add_product.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\calin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\calin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\calin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\calin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\calin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\calin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\calin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\calin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\calin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\calin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\calin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\base.py", line 512, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\calin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\base.py", line 573, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 6: 'static'. Did you forget to register or load this tag?
+ERROR 2025-01-15 22:40:24,792 basehttp "GET /magazin/add_product/ HTTP/1.1" 500 145275
+WARNING 2025-01-15 22:43:44,561 basehttp "GET /static/css/styles.css HTTP/1.1" 404 1856
+WARNING 2025-01-15 22:52:27,385 log Not Found: /magazin/add_products/
+WARNING 2025-01-15 22:52:27,385 basehttp "GET /magazin/add_products/ HTTP/1.1" 404 6240
+WARNING 2025-01-15 23:30:34,298 log Not Found: /magazin/lprofile
+WARNING 2025-01-15 23:30:34,298 basehttp "GET /magazin/lprofile HTTP/1.1" 404 6225
+WARNING 2025-01-15 23:31:30,985 log Not Found: /magazin/profi;e
+WARNING 2025-01-15 23:31:30,986 basehttp "GET /magazin/profi;e HTTP/1.1" 404 6224
+WARNING 2025-01-16 11:24:38,829 log Not Found: /favicon.ico
+WARNING 2025-01-16 11:24:38,859 basehttp "GET /favicon.ico HTTP/1.1" 404 2513
+WARNING 2025-01-16 12:12:54,899 log Not Found: /favicon.ico
+WARNING 2025-01-16 12:12:54,899 basehttp "GET /favicon.ico HTTP/1.1" 404 2513

@@ -1,0 +1,1113 @@
+INFO 2025-01-13 14:20:03,938 autoreload Watching for file changes with StatReloader
+# Loc 1: După un produs adăugat
+logger.info("Un produs nou a fost adăugat în catalog (loc 1).")
+
+# Loc 2: După logarea unui utilizator
+logger.info(f"Utilizatorul {request.user.username} s-a autentificat cu succes (loc 2).")
+INFO 2025-01-13 15:30:12,951 basehttp "GET /magazin/products/ HTTP/1.1" 200 1320
+INFO 2025-01-13 15:30:32,923 basehttp "GET / HTTP/1.1" 200 3000
+WARNING 2025-01-13 15:30:33,399 log Not Found: /favicon.ico
+WARNING 2025-01-13 15:30:33,400 basehttp "GET /favicon.ico HTTP/1.1" 404 2513
+INFO 2025-01-13 15:52:22,761 autoreload D:\UB\an2\Django\test\magazin\views.py changed, reloading.
+INFO 2025-01-13 15:52:26,043 autoreload Watching for file changes with StatReloader
+INFO 2025-01-13 15:52:29,033 basehttp "GET / HTTP/1.1" 200 3000
+WARNING 2025-01-13 15:52:32,613 log Not Found: /aidiuq
+WARNING 2025-01-13 15:52:32,613 basehttp "GET /aidiuq HTTP/1.1" 404 2498
+INFO 2025-01-13 15:53:04,100 autoreload Watching for file changes with StatReloader
+INFO 2025-01-13 15:53:08,241 basehttp "GET / HTTP/1.1" 200 3000
+WARNING 2025-01-13 15:53:08,704 log Not Found: /favicon.ico
+WARNING 2025-01-13 15:53:08,704 basehttp "GET /favicon.ico HTTP/1.1" 404 2513
+WARNING 2025-01-13 15:53:12,745 log Not Found: /aaa
+WARNING 2025-01-13 15:53:12,746 basehttp "GET /aaa HTTP/1.1" 404 2489
+INFO 2025-01-13 15:56:42,545 autoreload Watching for file changes with StatReloader
+WARNING 2025-01-13 15:56:52,254 log Not Found: /magazin
+WARNING 2025-01-13 15:56:52,255 basehttp "GET /magazin HTTP/1.1" 404 2501
+INFO 2025-01-13 15:56:57,233 basehttp "GET /magazin/login HTTP/1.1" 301 0
+INFO 2025-01-13 15:56:57,329 basehttp "GET /magazin/login/ HTTP/1.1" 200 602
+WARNING 2025-01-13 15:57:02,866 log Not Found: /magazin/
+WARNING 2025-01-13 15:57:02,867 basehttp "GET /magazin/ HTTP/1.1" 404 5656
+WARNING 2025-01-13 15:57:08,701 log Not Found: /magazin/403
+WARNING 2025-01-13 15:57:08,702 basehttp "GET /magazin/403 HTTP/1.1" 404 5665
+INFO 2025-01-13 15:58:41,712 autoreload D:\UB\an2\Django\test\magazin\views.py changed, reloading.
+INFO 2025-01-13 15:58:42,270 autoreload Watching for file changes with StatReloader
+INFO 2025-01-13 16:04:33,033 autoreload Watching for file changes with StatReloader
+INFO 2025-01-13 16:04:36,887 basehttp "GET /magazin/login/ HTTP/1.1" 200 602
+INFO 2025-01-13 16:04:49,241 basehttp "POST /magazin/login/ HTTP/1.1" 302 0
+WARNING 2025-01-13 16:04:49,251 log Not Found: /accounts/profile/
+WARNING 2025-01-13 16:04:49,252 basehttp "GET /accounts/profile/ HTTP/1.1" 404 2531
+INFO 2025-01-13 16:04:53,392 basehttp "GET /magazin/login/ HTTP/1.1" 200 602
+INFO 2025-01-13 16:04:59,943 basehttp "POST /magazin/login/ HTTP/1.1" 302 0
+WARNING 2025-01-13 16:04:59,951 log Not Found: /accounts/profile/
+WARNING 2025-01-13 16:04:59,952 basehttp "GET /accounts/profile/ HTTP/1.1" 404 2531
+INFO 2025-01-13 16:16:14,886 autoreload Watching for file changes with StatReloader
+INFO 2025-01-13 16:16:19,896 basehttp "GET / HTTP/1.1" 200 3000
+WARNING 2025-01-13 16:16:26,155 log Not Found: /promotions
+WARNING 2025-01-13 16:16:26,156 basehttp "GET /promotions HTTP/1.1" 404 2510
+INFO 2025-01-13 16:16:39,185 basehttp "GET /magazin/promotions/ HTTP/1.1" 200 1974
+INFO 2025-01-13 16:18:32,744 basehttp "GET / HTTP/1.1" 200 3000
+INFO 2025-01-13 16:18:35,284 basehttp "GET /magazin/login/ HTTP/1.1" 200 602
+INFO 2025-01-13 16:18:38,510 basehttp "GET /magazin/register/ HTTP/1.1" 200 2409
+INFO 2025-01-13 16:18:41,775 basehttp "GET /magazin/login/ HTTP/1.1" 200 602
+INFO 2025-01-13 16:18:52,548 basehttp "GET /magazin/register/ HTTP/1.1" 200 2409
+INFO 2025-01-13 16:19:02,969 basehttp "GET /magazin/profile HTTP/1.1" 301 0
+INFO 2025-01-13 16:19:03,041 basehttp "GET /magazin/profile/ HTTP/1.1" 200 490
+WARNING 2025-01-13 16:19:26,543 base Method Not Allowed (GET): /magazin/logout/
+WARNING 2025-01-13 16:19:26,543 log Method Not Allowed: /magazin/logout/
+WARNING 2025-01-13 16:19:26,543 basehttp "GET /magazin/logout/ HTTP/1.1" 405 0
+WARNING 2025-01-13 16:19:27,910 base Method Not Allowed (GET): /magazin/logout/
+WARNING 2025-01-13 16:19:27,911 log Method Not Allowed: /magazin/logout/
+WARNING 2025-01-13 16:19:27,911 basehttp "GET /magazin/logout/ HTTP/1.1" 405 0
+WARNING 2025-01-13 16:19:29,082 base Method Not Allowed (GET): /magazin/logout/
+WARNING 2025-01-13 16:19:29,083 log Method Not Allowed: /magazin/logout/
+WARNING 2025-01-13 16:19:29,084 basehttp "GET /magazin/logout/ HTTP/1.1" 405 0
+INFO 2025-01-13 16:19:36,042 basehttp "GET / HTTP/1.1" 200 3000
+INFO 2025-01-13 16:19:46,161 basehttp "GET /magazin/profile/ HTTP/1.1" 200 490
+WARNING 2025-01-13 16:19:49,844 base Method Not Allowed (GET): /magazin/logout/
+WARNING 2025-01-13 16:19:49,845 log Method Not Allowed: /magazin/logout/
+WARNING 2025-01-13 16:19:49,845 basehttp "GET /magazin/logout/ HTTP/1.1" 405 0
+INFO 2025-01-13 16:19:54,542 basehttp "GET / HTTP/1.1" 200 3000
+INFO 2025-01-13 16:19:55,899 basehttp "GET /magazin/login/ HTTP/1.1" 200 602
+INFO 2025-01-13 16:20:13,100 basehttp "POST /magazin/login/ HTTP/1.1" 200 772
+INFO 2025-01-13 16:20:21,384 basehttp "POST /magazin/login/ HTTP/1.1" 200 772
+INFO 2025-01-13 16:20:34,188 basehttp "POST /magazin/login/ HTTP/1.1" 200 772
+INFO 2025-01-13 16:20:38,422 basehttp "GET / HTTP/1.1" 200 3000
+INFO 2025-01-13 16:20:42,942 basehttp "GET /magazin/login/ HTTP/1.1" 200 602
+INFO 2025-01-13 16:20:52,119 basehttp "POST /magazin/login/ HTTP/1.1" 200 773
+INFO 2025-01-13 16:20:59,370 basehttp "POST /magazin/login/ HTTP/1.1" 200 773
+INFO 2025-01-13 16:21:14,395 basehttp "POST /magazin/login/ HTTP/1.1" 200 765
+INFO 2025-01-13 16:21:19,844 basehttp "POST /magazin/login/ HTTP/1.1" 302 0
+WARNING 2025-01-13 16:21:19,852 log Not Found: /accounts/profile/
+WARNING 2025-01-13 16:21:19,852 basehttp "GET /accounts/profile/ HTTP/1.1" 404 2531
+WARNING 2025-01-13 16:21:42,571 log Not Found: /accounts/profile
+WARNING 2025-01-13 16:21:42,572 basehttp "GET /accounts/profile HTTP/1.1" 404 2528
+INFO 2025-01-13 16:23:14,556 autoreload D:\UB\an2\Django\test\magazin\views.py changed, reloading.
+INFO 2025-01-13 16:23:15,141 autoreload Watching for file changes with StatReloader
+WARNING 2025-01-13 16:23:20,162 log Not Found: /accounts/profile
+WARNING 2025-01-13 16:23:20,163 basehttp "GET /accounts/profile HTTP/1.1" 404 2528
+INFO 2025-01-13 16:24:20,126 basehttp "GET /magazin/profile/ HTTP/1.1" 200 523
+INFO 2025-01-13 16:25:21,637 autoreload D:\UB\an2\Django\test\magazin\views.py changed, reloading.
+INFO 2025-01-13 16:25:22,200 autoreload Watching for file changes with StatReloader
+INFO 2025-01-13 16:25:25,071 basehttp "GET /magazin/profile/ HTTP/1.1" 200 523
+WARNING 2025-01-13 16:25:29,132 log Not Found: /login
+WARNING 2025-01-13 16:25:29,133 basehttp "GET /login HTTP/1.1" 404 2495
+INFO 2025-01-13 16:25:35,563 basehttp "GET /magazin/login/ HTTP/1.1" 200 602
+INFO 2025-01-13 16:25:49,891 basehttp "POST /magazin/login/ HTTP/1.1" 302 0
+WARNING 2025-01-13 16:25:49,899 log Not Found: /accounts/profile/
+WARNING 2025-01-13 16:25:49,899 basehttp "GET /accounts/profile/ HTTP/1.1" 404 2531
+INFO 2025-01-13 16:27:48,310 autoreload D:\UB\an2\Django\test\test\settings.py changed, reloading.
+INFO 2025-01-13 16:27:48,946 autoreload Watching for file changes with StatReloader
+INFO 2025-01-13 16:32:14,205 autoreload Watching for file changes with StatReloader
+INFO 2025-01-13 16:32:17,014 basehttp "GET / HTTP/1.1" 200 3000
+INFO 2025-01-13 16:32:34,741 basehttp "GET /magazin/profile/ HTTP/1.1" 200 523
+WARNING 2025-01-13 16:32:39,489 base Method Not Allowed (GET): /magazin/logout/
+WARNING 2025-01-13 16:32:39,490 log Method Not Allowed: /magazin/logout/
+WARNING 2025-01-13 16:32:39,490 basehttp "GET /magazin/logout/ HTTP/1.1" 405 0
+INFO 2025-01-13 16:37:23,604 autoreload Watching for file changes with StatReloader
+INFO 2025-01-13 16:37:28,691 basehttp "GET / HTTP/1.1" 200 3000
+INFO 2025-01-13 16:37:41,279 basehttp "GET /magazin/profile/ HTTP/1.1" 200 709
+INFO 2025-01-13 16:37:43,846 basehttp "POST /magazin/logout/ HTTP/1.1" 302 0
+INFO 2025-01-13 16:37:43,849 basehttp "GET / HTTP/1.1" 200 3000
+INFO 2025-01-13 16:37:58,605 basehttp "GET /magazin/profile/ HTTP/1.1" 302 0
+WARNING 2025-01-13 16:37:58,618 log Not Found: /accounts/login/
+WARNING 2025-01-13 16:37:58,618 basehttp "GET /accounts/login/?next=/magazin/profile/ HTTP/1.1" 404 2548
+INFO 2025-01-13 16:38:06,622 basehttp "GET /magazin/profile/ HTTP/1.1" 302 0
+WARNING 2025-01-13 16:38:06,636 log Not Found: /accounts/login/
+WARNING 2025-01-13 16:38:06,637 basehttp "GET /accounts/login/?next=/magazin/profile/ HTTP/1.1" 404 2548
+INFO 2025-01-13 16:38:08,784 basehttp "GET /magazin/profile/ HTTP/1.1" 302 0
+WARNING 2025-01-13 16:38:08,797 log Not Found: /accounts/login/
+WARNING 2025-01-13 16:38:08,797 basehttp "GET /accounts/login/?next=/magazin/profile/ HTTP/1.1" 404 2548
+INFO 2025-01-13 16:38:21,371 basehttp "GET / HTTP/1.1" 200 3000
+INFO 2025-01-13 16:38:22,947 basehttp "GET /magazin/login/ HTTP/1.1" 200 507
+INFO 2025-01-13 16:38:32,037 basehttp "GET / HTTP/1.1" 200 3000
+INFO 2025-01-13 16:38:47,057 basehttp "GET /magazin/promotions/ HTTP/1.1" 302 0
+WARNING 2025-01-13 16:38:47,068 log Not Found: /403/
+WARNING 2025-01-13 16:38:47,068 basehttp "GET /403/?next=/magazin/promotions/ HTTP/1.1" 404 2518
+INFO 2025-01-13 16:39:20,348 basehttp "GET // HTTP/1.1" 200 3000
+INFO 2025-01-13 16:39:23,709 basehttp "GET / HTTP/1.1" 200 3000
+INFO 2025-01-13 16:39:25,465 basehttp "GET /magazin/login/ HTTP/1.1" 200 507
+INFO 2025-01-13 16:39:34,744 basehttp "POST /magazin/login/ HTTP/1.1" 302 0
+INFO 2025-01-13 16:39:34,888 basehttp "GET /magazin/profile/ HTTP/1.1" 200 709
+INFO 2025-01-13 16:39:43,451 basehttp "GET /magazin/promotions/ HTTP/1.1" 302 0
+WARNING 2025-01-13 16:39:43,459 log Not Found: /403/
+WARNING 2025-01-13 16:39:43,459 basehttp "GET /403/?next=/magazin/promotions/ HTTP/1.1" 404 2518
+INFO 2025-01-13 16:39:56,623 basehttp "GET / HTTP/1.1" 200 3000
+INFO 2025-01-13 16:39:58,159 basehttp "GET /magazin/login/ HTTP/1.1" 200 507
+INFO 2025-01-13 16:40:03,251 basehttp "POST /magazin/login/ HTTP/1.1" 302 0
+INFO 2025-01-13 16:40:03,392 basehttp "GET /magazin/profile/ HTTP/1.1" 200 673
+INFO 2025-01-13 16:40:14,467 basehttp "GET /magazin/promotions/ HTTP/1.1" 200 1974
+INFO 2025-01-13 16:40:58,671 basehttp "GET / HTTP/1.1" 200 3000
+INFO 2025-01-13 16:41:09,078 basehttp "GET /magazin/register/ HTTP/1.1" 200 2409
+INFO 2025-01-13 16:41:13,197 basehttp "GET /magazin/products/ HTTP/1.1" 200 1320
+INFO 2025-01-13 16:41:17,327 basehttp "GET /magazin/login/ HTTP/1.1" 200 507
+INFO 2025-01-13 16:41:22,713 basehttp "GET /magazin/profile/ HTTP/1.1" 200 673
+INFO 2025-01-13 16:41:29,393 basehttp "POST /magazin/logout/ HTTP/1.1" 302 0
+INFO 2025-01-13 16:41:29,395 basehttp "GET / HTTP/1.1" 200 3000
+INFO 2025-01-13 16:41:43,291 basehttp "GET /magazin/promotions/ HTTP/1.1" 302 0
+WARNING 2025-01-13 16:41:43,303 log Not Found: /403/
+WARNING 2025-01-13 16:41:43,304 basehttp "GET /403/?next=/magazin/promotions/ HTTP/1.1" 404 2518
+INFO 2025-01-13 16:55:34,493 autoreload Watching for file changes with StatReloader
+INFO 2025-01-13 16:58:58,248 autoreload Watching for file changes with StatReloader
+INFO 2025-01-13 16:59:01,334 basehttp "GET / HTTP/1.1" 200 3000
+INFO 2025-01-13 16:59:11,200 basehttp "GET /magazin/profile/ HTTP/1.1" 302 0
+WARNING 2025-01-13 16:59:11,211 log Not Found: /accounts/login/
+WARNING 2025-01-13 16:59:11,211 basehttp "GET /accounts/login/?next=/magazin/profile/ HTTP/1.1" 404 2548
+INFO 2025-01-13 16:59:16,742 basehttp "GET /magazin/profile/ HTTP/1.1" 302 0
+WARNING 2025-01-13 16:59:16,753 log Not Found: /accounts/login/
+WARNING 2025-01-13 16:59:16,754 basehttp "GET /accounts/login/?next=/magazin/profile/ HTTP/1.1" 404 2548
+INFO 2025-01-13 16:59:52,256 basehttp "GET /magazin/profile/ HTTP/1.1" 302 0
+WARNING 2025-01-13 16:59:52,266 log Not Found: /accounts/login/
+WARNING 2025-01-13 16:59:52,267 basehttp "GET /accounts/login/?next=/magazin/profile/ HTTP/1.1" 404 2548
+WARNING 2025-01-13 16:59:56,724 log Not Found: /magazin/
+WARNING 2025-01-13 16:59:56,724 basehttp "GET /magazin/ HTTP/1.1" 404 5656
+INFO 2025-01-13 17:00:01,281 basehttp "GET /magazin/profile/ HTTP/1.1" 302 0
+WARNING 2025-01-13 17:00:01,293 log Not Found: /accounts/login/
+WARNING 2025-01-13 17:00:01,294 basehttp "GET /accounts/login/?next=/magazin/profile/ HTTP/1.1" 404 2548
+INFO 2025-01-13 17:00:02,230 basehttp "GET /magazin/profile/ HTTP/1.1" 302 0
+WARNING 2025-01-13 17:00:02,244 log Not Found: /accounts/login/
+WARNING 2025-01-13 17:00:02,245 basehttp "GET /accounts/login/?next=/magazin/profile/ HTTP/1.1" 404 2548
+INFO 2025-01-13 17:03:17,489 basehttp "GET /magazin/profile/ HTTP/1.1" 302 0
+WARNING 2025-01-13 17:03:17,501 log Not Found: /accounts/login/
+WARNING 2025-01-13 17:03:17,502 basehttp "GET /accounts/login/?next=/magazin/profile/ HTTP/1.1" 404 2548
+INFO 2025-01-13 17:03:19,799 basehttp "GET /magazin/promotions/ HTTP/1.1" 302 0
+WARNING 2025-01-13 17:03:19,815 log Not Found: /403/
+WARNING 2025-01-13 17:03:19,816 basehttp "GET /403/?next=/magazin/promotions/ HTTP/1.1" 404 2518
+INFO 2025-01-13 17:03:21,805 basehttp "GET /magazin/promotions/ HTTP/1.1" 302 0
+WARNING 2025-01-13 17:03:21,817 log Not Found: /403/
+WARNING 2025-01-13 17:03:21,818 basehttp "GET /403/?next=/magazin/promotions/ HTTP/1.1" 404 2518
+INFO 2025-01-13 17:04:54,038 autoreload D:\UB\an2\Django\test\magazin\urls.py changed, reloading.
+INFO 2025-01-13 17:04:54,627 autoreload Watching for file changes with StatReloader
+INFO 2025-01-13 17:06:21,545 autoreload Watching for file changes with StatReloader
+WARNING 2025-01-13 17:06:26,468 log Not Found: /403/
+WARNING 2025-01-13 17:06:26,468 basehttp "GET /403/ HTTP/1.1" 404 2492
+INFO 2025-01-13 17:06:30,211 basehttp "GET / HTTP/1.1" 200 3000
+INFO 2025-01-13 17:06:32,910 basehttp "GET /magazin/login/ HTTP/1.1" 200 507
+INFO 2025-01-13 17:06:35,462 basehttp "GET /magazin/register/ HTTP/1.1" 200 2409
+INFO 2025-01-13 17:06:38,676 basehttp "GET /magazin/login/ HTTP/1.1" 200 507
+INFO 2025-01-13 17:06:40,781 basehttp "GET /magazin/products/ HTTP/1.1" 200 1320
+INFO 2025-01-13 17:06:46,657 basehttp "GET /magazin/profile/ HTTP/1.1" 302 0
+WARNING 2025-01-13 17:06:46,669 log Not Found: /accounts/login/
+WARNING 2025-01-13 17:06:46,670 basehttp "GET /accounts/login/?next=/magazin/profile/ HTTP/1.1" 404 2548
+INFO 2025-01-13 17:06:49,901 basehttp "GET /magazin/profile/ HTTP/1.1" 302 0
+WARNING 2025-01-13 17:06:49,916 log Not Found: /accounts/login/
+WARNING 2025-01-13 17:06:49,916 basehttp "GET /accounts/login/?next=/magazin/profile/ HTTP/1.1" 404 2548
+INFO 2025-01-13 17:07:30,035 basehttp "GET / HTTP/1.1" 200 3000
+INFO 2025-01-13 17:07:31,798 basehttp "GET /magazin/login/ HTTP/1.1" 200 507
+INFO 2025-01-13 17:07:39,132 basehttp "POST /magazin/login/ HTTP/1.1" 302 0
+INFO 2025-01-13 17:07:39,174 basehttp "GET /magazin/profile/ HTTP/1.1" 200 673
+INFO 2025-01-13 17:07:51,482 basehttp "GET / HTTP/1.1" 200 3000
+INFO 2025-01-13 17:07:59,105 basehttp "GET /magazin/profile/ HTTP/1.1" 200 673
+INFO 2025-01-13 17:08:11,685 basehttp "GET /magazin/promotions/ HTTP/1.1" 200 1974
+INFO 2025-01-13 17:08:20,038 basehttp "GET / HTTP/1.1" 200 3000
+INFO 2025-01-13 17:08:24,246 basehttp "GET /magazin/profile/ HTTP/1.1" 200 673
+INFO 2025-01-13 17:08:29,512 basehttp "GET /magazin/403 HTTP/1.1" 301 0
+WARNING 2025-01-13 17:08:29,534 log Forbidden: /magazin/403/
+WARNING 2025-01-13 17:08:29,534 basehttp "GET /magazin/403/ HTTP/1.1" 403 379
+INFO 2025-01-13 17:08:32,225 basehttp "GET / HTTP/1.1" 200 3000
+WARNING 2025-01-13 17:08:35,435 log Not Found: /]
+WARNING 2025-01-13 17:08:35,435 basehttp "GET /] HTTP/1.1" 404 2485
+INFO 2025-01-13 17:08:38,848 basehttp "GET / HTTP/1.1" 200 3000
+INFO 2025-01-13 17:08:40,040 basehttp "GET /magazin/login/ HTTP/1.1" 200 507
+INFO 2025-01-13 17:08:46,299 basehttp "POST /magazin/login/ HTTP/1.1" 200 507
+INFO 2025-01-13 17:08:56,826 basehttp "POST /magazin/login/ HTTP/1.1" 200 507
+INFO 2025-01-13 17:09:06,537 basehttp "POST /magazin/login/ HTTP/1.1" 200 507
+INFO 2025-01-13 17:09:46,804 basehttp "POST /magazin/login/ HTTP/1.1" 302 0
+INFO 2025-01-13 17:09:46,842 basehttp "GET /magazin/profile/ HTTP/1.1" 200 709
+INFO 2025-01-13 17:09:53,702 basehttp "GET /magazin/promotions/ HTTP/1.1" 302 0
+WARNING 2025-01-13 17:09:53,710 log Not Found: /403/
+WARNING 2025-01-13 17:09:53,710 basehttp "GET /403/?next=/magazin/promotions/ HTTP/1.1" 404 2518
+INFO 2025-01-13 17:09:54,446 basehttp "GET /magazin/promotions/ HTTP/1.1" 302 0
+WARNING 2025-01-13 17:09:54,454 log Not Found: /403/
+WARNING 2025-01-13 17:09:54,454 basehttp "GET /403/?next=/magazin/promotions/ HTTP/1.1" 404 2518
+INFO 2025-01-13 17:11:42,375 basehttp "GET / HTTP/1.1" 200 3000
+INFO 2025-01-13 17:11:57,978 basehttp "GET /magazin/promotions/ HTTP/1.1" 302 0
+WARNING 2025-01-13 17:11:57,986 log Not Found: /403/
+WARNING 2025-01-13 17:11:57,986 basehttp "GET /403/?next=/magazin/promotions/ HTTP/1.1" 404 2518
+INFO 2025-01-13 17:12:03,265 basehttp "GET /magazin/promotions/ HTTP/1.1" 302 0
+WARNING 2025-01-13 17:12:03,274 log Not Found: /403/
+WARNING 2025-01-13 17:12:03,274 basehttp "GET /403/?next=/magazin/promotions/ HTTP/1.1" 404 2518
+INFO 2025-01-13 17:13:06,092 autoreload Watching for file changes with StatReloader
+INFO 2025-01-13 17:13:14,057 basehttp "GET / HTTP/1.1" 200 3000
+INFO 2025-01-13 17:13:20,854 basehttp "GET /magazin/promotions/ HTTP/1.1" 302 0
+WARNING 2025-01-13 17:13:20,862 log Not Found: /magazin/promotions/magazin/403/
+WARNING 2025-01-13 17:13:20,863 basehttp "GET /magazin/promotions/magazin/403/?next=/magazin/promotions/ HTTP/1.1" 404 6008
+INFO 2025-01-13 17:13:27,119 basehttp "GET /magazin/promotions/ HTTP/1.1" 302 0
+WARNING 2025-01-13 17:13:27,126 log Not Found: /magazin/promotions/magazin/403/
+WARNING 2025-01-13 17:13:27,126 basehttp "GET /magazin/promotions/magazin/403/?next=/magazin/promotions/ HTTP/1.1" 404 6008
+INFO 2025-01-13 17:13:34,286 basehttp "GET / HTTP/1.1" 200 3000
+INFO 2025-01-13 17:13:37,730 basehttp "GET /magazin/promotions/ HTTP/1.1" 302 0
+WARNING 2025-01-13 17:13:37,737 log Not Found: /magazin/promotions/magazin/403/
+WARNING 2025-01-13 17:13:37,737 basehttp "GET /magazin/promotions/magazin/403/?next=/magazin/promotions/ HTTP/1.1" 404 6008
+WARNING 2025-01-13 17:13:39,791 log Forbidden: /magazin/403/
+WARNING 2025-01-13 17:13:39,791 basehttp "GET /magazin/403/ HTTP/1.1" 403 379
+INFO 2025-01-13 17:13:46,561 basehttp "GET / HTTP/1.1" 200 3000
+INFO 2025-01-13 17:17:15,820 autoreload Watching for file changes with StatReloader
+INFO 2025-01-13 17:17:23,441 basehttp "GET / HTTP/1.1" 200 3000
+INFO 2025-01-13 17:17:24,644 basehttp "GET / HTTP/1.1" 200 3000
+INFO 2025-01-13 17:17:29,487 basehttp "GET /magazin/promotions/ HTTP/1.1" 302 0
+WARNING 2025-01-13 17:17:29,496 log Not Found: /accounts/login/
+WARNING 2025-01-13 17:17:29,496 basehttp "GET /accounts/login/?next=/magazin/promotions/ HTTP/1.1" 404 2551
+INFO 2025-01-13 17:17:33,792 basehttp "GET /magazin/profile/ HTTP/1.1" 200 709
+INFO 2025-01-13 17:17:38,060 basehttp "GET /magazin/promotions/ HTTP/1.1" 302 0
+WARNING 2025-01-13 17:17:38,067 log Not Found: /accounts/login/
+WARNING 2025-01-13 17:17:38,068 basehttp "GET /accounts/login/?next=/magazin/promotions/ HTTP/1.1" 404 2551
+INFO 2025-01-13 17:17:39,664 basehttp "GET /magazin/promotions/ HTTP/1.1" 302 0
+WARNING 2025-01-13 17:17:39,672 log Not Found: /accounts/login/
+WARNING 2025-01-13 17:17:39,672 basehttp "GET /accounts/login/?next=/magazin/promotions/ HTTP/1.1" 404 2551
+WARNING 2025-01-13 17:18:06,447 log Not Found: /403
+WARNING 2025-01-13 17:18:06,447 basehttp "GET /403 HTTP/1.1" 404 2489
+WARNING 2025-01-13 17:18:13,788 log Not Found: /magazin/403/
+WARNING 2025-01-13 17:18:13,789 basehttp "GET /magazin/403/ HTTP/1.1" 404 5668
+INFO 2025-01-13 17:23:12,725 autoreload D:\UB\an2\Django\test\test\settings.py changed, reloading.
+INFO 2025-01-13 17:23:13,313 autoreload Watching for file changes with StatReloader
+INFO 2025-01-13 17:25:23,481 autoreload Watching for file changes with StatReloader
+INFO 2025-01-13 17:25:27,331 basehttp "GET / HTTP/1.1" 200 3000
+INFO 2025-01-13 17:25:36,809 basehttp "GET /magazin/profile/ HTTP/1.1" 200 709
+INFO 2025-01-13 17:25:44,096 basehttp "GET /magazin/promotions/ HTTP/1.1" 302 0
+INFO 2025-01-13 17:25:44,099 basehttp "GET /magazin/login/?next=/magazin/promotions/ HTTP/1.1" 200 507
+INFO 2025-01-13 17:26:14,052 basehttp "POST /magazin/login/?next=/magazin/promotions/ HTTP/1.1" 302 0
+INFO 2025-01-13 17:26:14,093 basehttp "GET /magazin/profile/ HTTP/1.1" 200 709
+INFO 2025-01-13 17:32:04,989 autoreload Watching for file changes with StatReloader
+WARNING 2025-01-13 17:32:15,486 basehttp "GET /magazin/promotions/ HTTP/1.1" 403 379
+WARNING 2025-01-13 17:32:17,512 basehttp "GET /magazin/promotions/ HTTP/1.1" 403 379
+INFO 2025-01-13 17:34:41,786 basehttp "GET / HTTP/1.1" 200 3000
+WARNING 2025-01-13 17:36:20,093 log Not Found: /user/profile
+WARNING 2025-01-13 17:36:20,093 basehttp "GET /user/profile HTTP/1.1" 404 2516
+INFO 2025-01-13 17:36:29,758 basehttp "GET /magazin/profile/ HTTP/1.1" 200 709
+INFO 2025-01-13 17:36:33,013 basehttp "POST /magazin/logout/ HTTP/1.1" 302 0
+INFO 2025-01-13 17:36:33,016 basehttp "GET / HTTP/1.1" 200 3000
+WARNING 2025-01-13 17:36:40,697 log Not Found: /magazin/prodfile
+WARNING 2025-01-13 17:36:40,698 basehttp "GET /magazin/prodfile HTTP/1.1" 404 5680
+INFO 2025-01-13 17:36:47,023 basehttp "GET /magazin/profile/ HTTP/1.1" 302 0
+INFO 2025-01-13 17:36:47,033 basehttp "GET /magazin/login/?next=/magazin/profile/ HTTP/1.1" 200 507
+INFO 2025-01-13 17:36:52,854 basehttp "GET / HTTP/1.1" 200 3000
+INFO 2025-01-15 11:46:45,325 autoreload Watching for file changes with StatReloader
+INFO 2025-01-15 11:57:45,213 autoreload Watching for file changes with StatReloader
+INFO 2025-01-15 12:14:55,137 autoreload Watching for file changes with StatReloader
+INFO 2025-01-15 12:19:37,410 autoreload Watching for file changes with StatReloader
+INFO 2025-01-15 12:19:41,396 basehttp "GET / HTTP/1.1" 200 3000
+WARNING 2025-01-15 12:19:41,880 log Not Found: /favicon.ico
+WARNING 2025-01-15 12:19:41,906 basehttp "GET /favicon.ico HTTP/1.1" 404 2513
+INFO 2025-01-15 12:20:19,214 basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-01-15 12:20:19,385 basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4158
+INFO 2025-01-15 12:20:19,832 basehttp "GET /static/admin/css/login.css HTTP/1.1" 200 951
+INFO 2025-01-15 12:20:24,033 basehttp "GET /admin/auth/group HTTP/1.1" 302 0
+INFO 2025-01-15 12:20:24,039 basehttp "GET /admin/login/?next=/admin/auth/group HTTP/1.1" 200 4178
+INFO 2025-01-15 12:20:31,842 basehttp "POST /admin/login/?next=/admin/auth/group HTTP/1.1" 302 0
+INFO 2025-01-15 12:20:31,883 basehttp "GET /admin/auth/group HTTP/1.1" 301 0
+INFO 2025-01-15 12:20:32,122 basehttp "GET /admin/auth/group/ HTTP/1.1" 200 10309
+INFO 2025-01-15 12:20:32,200 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 200 6878
+INFO 2025-01-15 12:20:32,209 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2025-01-15 12:20:32,226 basehttp "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2025-01-15 12:20:32,226 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9097
+INFO 2025-01-15 12:20:32,230 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+INFO 2025-01-15 12:20:32,233 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2025-01-15 12:20:32,248 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2025-01-15 12:20:32,276 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2025-01-15 12:20:32,294 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-15 12:20:32,339 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2025-01-15 12:20:32,395 basehttp "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2025-01-15 12:20:32,454 basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2025-01-15 12:20:32,454 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2025-01-15 12:20:39,498 basehttp "GET /admin/auth/group/add/ HTTP/1.1" 200 16191
+INFO 2025-01-15 12:20:39,523 basehttp "GET /static/admin/css/forms.css HTTP/1.1" 200 8710
+INFO 2025-01-15 12:20:39,530 basehttp "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2025-01-15 12:20:39,531 basehttp "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15502
+INFO 2025-01-15 12:20:39,537 basehttp "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+INFO 2025-01-15 12:20:39,554 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-15 12:20:39,651 basehttp "GET /static/admin/css/widgets.css HTTP/1.1" 200 11564
+INFO 2025-01-15 12:20:39,652 basehttp "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2025-01-15 12:20:39,754 basehttp "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+INFO 2025-01-15 12:20:39,754 basehttp "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+INFO 2025-01-15 12:20:39,755 basehttp "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+INFO 2025-01-15 12:21:51,143 basehttp "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+INFO 2025-01-15 12:21:51,205 basehttp "GET /admin/auth/group/ HTTP/1.1" 200 11821
+INFO 2025-01-15 12:21:51,321 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-15 12:21:51,511 basehttp "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+WARNING 2025-01-15 13:30:40,578 log Not Found: /admin/auth/user
+WARNING 2025-01-15 13:30:40,578 basehttp "GET /admin/auth/user HTTP/1.1" 404 7119
+WARNING 2025-01-15 13:30:44,324 log Not Found: /admin/auth/user/
+WARNING 2025-01-15 13:30:44,324 basehttp "GET /admin/auth/user/ HTTP/1.1" 404 7122
+WARNING 2025-01-15 13:31:21,551 log Not Found: /admin/auth/users/
+WARNING 2025-01-15 13:31:21,552 basehttp "GET /admin/auth/users/ HTTP/1.1" 404 7125
+INFO 2025-01-15 13:31:26,137 basehttp "GET /admin/auth HTTP/1.1" 301 0
+INFO 2025-01-15 13:31:26,201 basehttp "GET /admin/auth/ HTTP/1.1" 200 5309
+INFO 2025-01-15 13:31:26,280 basehttp "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2025-01-15 13:31:26,491 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2025-01-15 13:31:31,864 basehttp "GET /admin/auth/ HTTP/1.1" 200 5309
+INFO 2025-01-15 13:31:32,851 basehttp "GET /admin/auth/ HTTP/1.1" 200 5309
+INFO 2025-01-15 13:31:38,306 basehttp "GET /admin/auth/group/ HTTP/1.1" 200 11611
+INFO 2025-01-15 13:31:38,369 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-15 13:31:41,271 basehttp "GET /admin/auth/group/1/change/ HTTP/1.1" 200 16507
+INFO 2025-01-15 13:31:41,325 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-15 13:53:27,208 autoreload Watching for file changes with StatReloader
+INFO 2025-01-15 13:53:57,393 basehttp "GET /admin/auth/group HTTP/1.1" 301 0
+INFO 2025-01-15 13:53:57,505 basehttp "GET /admin/auth/group/ HTTP/1.1" 200 11611
+INFO 2025-01-15 13:53:57,612 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-15 13:54:10,132 basehttp "GET /admin/auth/group/1/change/ HTTP/1.1" 200 16507
+INFO 2025-01-15 13:54:10,291 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+WARNING 2025-01-15 13:54:39,105 log Not Found: /admin/auth/user
+WARNING 2025-01-15 13:54:39,106 basehttp "GET /admin/auth/user HTTP/1.1" 404 7119
+INFO 2025-01-15 13:54:49,057 basehttp "GET /admin HTTP/1.1" 301 0
+INFO 2025-01-15 13:54:49,118 basehttp "GET /admin/ HTTP/1.1" 200 13375
+INFO 2025-01-15 13:55:52,682 basehttp "GET /admin/magazin/customuser/ HTTP/1.1" 200 21438
+INFO 2025-01-15 13:55:52,756 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-15 13:55:52,793 basehttp "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+INFO 2025-01-15 13:55:52,905 basehttp "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2025-01-15 13:55:52,906 basehttp "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2025-01-15 13:56:40,124 basehttp "GET /admin/magazin/customuser/13/change/ HTTP/1.1" 200 31007
+INFO 2025-01-15 13:56:40,184 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-15 13:56:40,184 basehttp "GET /static/admin/js/calendar.js HTTP/1.1" 200 9141
+INFO 2025-01-15 13:56:40,185 basehttp "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+INFO 2025-01-15 13:56:40,345 basehttp "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2025-01-15 13:56:40,346 basehttp "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2025-01-15 13:56:48,943 basehttp "GET /admin/magazin/customuser/ HTTP/1.1" 200 21438
+INFO 2025-01-15 13:57:26,268 basehttp "POST /admin/magazin/customuser/ HTTP/1.1" 200 10329
+INFO 2025-01-15 13:57:26,302 basehttp "GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+INFO 2025-01-15 13:57:27,535 basehttp "POST /admin/magazin/customuser/ HTTP/1.1" 302 0
+INFO 2025-01-15 13:57:27,590 basehttp "GET /admin/magazin/customuser/ HTTP/1.1" 200 19835
+INFO 2025-01-15 13:57:27,913 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-15 13:57:42,108 basehttp "GET /admin/magazin/customuser/6/change/ HTTP/1.1" 200 31362
+INFO 2025-01-15 13:57:42,161 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-15 13:57:47,866 basehttp "GET /admin/magazin/customuser/ HTTP/1.1" 200 19700
+INFO 2025-01-15 13:58:11,097 basehttp "GET /admin/magazin/customuser/12/change/ HTTP/1.1" 200 31038
+INFO 2025-01-15 13:58:11,151 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-15 13:58:50,337 basehttp "POST /admin/magazin/customuser/12/change/ HTTP/1.1" 302 0
+INFO 2025-01-15 13:58:50,391 basehttp "GET /admin/magazin/customuser/ HTTP/1.1" 200 19911
+INFO 2025-01-15 13:58:50,612 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-15 13:58:59,954 basehttp "GET /admin/magazin/customuser/12/change/ HTTP/1.1" 200 31047
+INFO 2025-01-15 13:59:00,110 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-15 13:59:03,939 basehttp "GET /admin/magazin/customuser/ HTTP/1.1" 200 19700
+INFO 2025-01-15 13:59:24,994 basehttp "GET / HTTP/1.1" 200 3000
+INFO 2025-01-15 13:59:26,690 basehttp "GET /magazin/login/ HTTP/1.1" 200 507
+INFO 2025-01-15 14:00:28,335 basehttp "POST /magazin/login/ HTTP/1.1" 302 0
+INFO 2025-01-15 14:00:28,385 basehttp "GET /magazin/profile/ HTTP/1.1" 200 713
+INFO 2025-01-15 14:00:39,654 basehttp "GET / HTTP/1.1" 200 3000
+INFO 2025-01-15 14:00:53,457 basehttp "GET /magazin/add_product/ HTTP/1.1" 200 1928
+INFO 2025-01-15 14:01:04,331 basehttp "GET /magazin/profile/ HTTP/1.1" 200 713
+INFO 2025-01-15 14:01:06,464 basehttp "POST /magazin/logout/ HTTP/1.1" 302 0
+INFO 2025-01-15 14:01:06,467 basehttp "GET / HTTP/1.1" 200 3000
+INFO 2025-01-15 14:01:21,128 basehttp "GET /magazin/add_product/ HTTP/1.1" 302 0
+INFO 2025-01-15 14:01:21,134 basehttp "GET /magazin/login/?next=/magazin/add_product/ HTTP/1.1" 200 507
+INFO 2025-01-15 14:01:42,295 basehttp "POST /magazin/login/?next=/magazin/add_product/ HTTP/1.1" 200 507
+INFO 2025-01-15 14:01:49,023 basehttp "GET / HTTP/1.1" 200 3000
+INFO 2025-01-15 14:01:50,738 basehttp "GET /magazin/register/ HTTP/1.1" 200 2409
+INFO 2025-01-15 14:02:36,944 basehttp "POST /magazin/register/ HTTP/1.1" 302 0
+INFO 2025-01-15 14:02:36,948 basehttp "GET /magazin/login/ HTTP/1.1" 200 507
+INFO 2025-01-15 14:02:51,044 basehttp "GET /magazin/confirma_mail/a2550757-86a6-45b4-b17a-f8245cf2b2c7 HTTP/1.1" 301 0
+INFO 2025-01-15 14:02:51,224 basehttp "GET /magazin/confirma_mail/a2550757-86a6-45b4-b17a-f8245cf2b2c7/ HTTP/1.1" 200 361
+WARNING 2025-01-15 14:02:51,654 log Not Found: /favicon.ico
+WARNING 2025-01-15 14:02:51,654 basehttp "GET /favicon.ico HTTP/1.1" 404 2513
+INFO 2025-01-15 14:02:55,765 basehttp "GET /magazin/login/ HTTP/1.1" 200 507
+INFO 2025-01-15 14:03:07,993 basehttp "POST /magazin/login/ HTTP/1.1" 302 0
+INFO 2025-01-15 14:03:08,039 basehttp "GET /magazin/profile/ HTTP/1.1" 200 707
+INFO 2025-01-15 14:03:17,801 basehttp "GET /magazin/add_product HTTP/1.1" 301 0
+WARNING 2025-01-15 14:03:18,199 basehttp "GET /magazin/add_product/ HTTP/1.1" 403 387
+INFO 2025-01-15 14:05:55,525 autoreload Watching for file changes with StatReloader
+WARNING 2025-01-15 14:05:59,545 basehttp "GET /magazin/add_product/ HTTP/1.1" 403 387
+INFO 2025-01-15 14:06:03,142 basehttp "GET / HTTP/1.1" 200 3000
+INFO 2025-01-15 14:06:16,400 basehttp "GET /magazin/profile/ HTTP/1.1" 200 707
+INFO 2025-01-15 14:06:19,512 basehttp "POST /magazin/logout/ HTTP/1.1" 302 0
+INFO 2025-01-15 14:06:19,515 basehttp "GET / HTTP/1.1" 200 3000
+WARNING 2025-01-15 14:07:07,511 basehttp "GET /magazin/add_product/ HTTP/1.1" 403 384
+INFO 2025-01-15 14:38:13,648 autoreload Watching for file changes with StatReloader
+INFO 2025-01-15 14:38:19,141 basehttp "GET / HTTP/1.1" 200 3142
+INFO 2025-01-15 14:38:30,770 basehttp "GET /magazin/profile/ HTTP/1.1" 302 0
+INFO 2025-01-15 14:38:30,777 basehttp "GET /magazin/login/?next=/magazin/profile/ HTTP/1.1" 200 507
+INFO 2025-01-15 14:39:03,327 basehttp "POST /magazin/login/?next=/magazin/profile/ HTTP/1.1" 302 0
+INFO 2025-01-15 14:39:03,477 basehttp "GET /magazin/profile/ HTTP/1.1" 200 709
+INFO 2025-01-15 14:39:12,737 basehttp "GET / HTTP/1.1" 200 3817
+INFO 2025-01-15 14:39:16,116 basehttp "GET / HTTP/1.1" 200 3817
+INFO 2025-01-15 14:39:36,496 basehttp "GET / HTTP/1.1" 200 3817
+INFO 2025-01-15 14:39:40,149 basehttp "GET / HTTP/1.1" 200 3817
+INFO 2025-01-15 14:39:40,954 basehttp "GET / HTTP/1.1" 200 3817
+INFO 2025-01-15 14:39:41,649 basehttp "GET / HTTP/1.1" 200 3817
+INFO 2025-01-15 14:39:42,430 basehttp "GET / HTTP/1.1" 200 3817
+INFO 2025-01-15 14:39:43,087 basehttp "GET / HTTP/1.1" 200 3817
+INFO 2025-01-15 14:39:43,987 basehttp "GET / HTTP/1.1" 200 3817
+INFO 2025-01-15 14:40:37,663 basehttp "GET /magazin/activate_offer/ HTTP/1.1" 302 0
+INFO 2025-01-15 14:40:37,723 basehttp "GET /magazin/offer/ HTTP/1.1" 200 318
+INFO 2025-01-15 14:41:13,524 basehttp "GET / HTTP/1.1" 200 3817
+INFO 2025-01-15 14:41:22,246 basehttp "GET /magazin/profile/ HTTP/1.1" 200 709
+INFO 2025-01-15 14:41:41,494 basehttp "GET / HTTP/1.1" 200 3817
+INFO 2025-01-15 14:41:51,045 basehttp "GET / HTTP/1.1" 200 3817
+INFO 2025-01-15 14:41:51,655 basehttp "GET / HTTP/1.1" 200 3817
+INFO 2025-01-15 14:41:53,325 basehttp "GET /magazin/activate_offer/ HTTP/1.1" 302 0
+INFO 2025-01-15 14:41:53,477 basehttp "GET /magazin/offer/ HTTP/1.1" 200 318
+INFO 2025-01-15 14:41:57,608 basehttp "GET /magazin/profile/ HTTP/1.1" 200 709
+INFO 2025-01-15 14:42:07,118 basehttp "POST /magazin/logout/ HTTP/1.1" 302 0
+INFO 2025-01-15 14:42:07,121 basehttp "GET / HTTP/1.1" 200 3142
+INFO 2025-01-15 14:42:10,997 basehttp "GET / HTTP/1.1" 200 3142
+INFO 2025-01-15 14:42:11,336 basehttp "GET / HTTP/1.1" 200 3142
+INFO 2025-01-15 14:42:12,100 basehttp "GET / HTTP/1.1" 200 3142
+INFO 2025-01-15 14:42:12,584 basehttp "GET / HTTP/1.1" 200 3142
+INFO 2025-01-15 14:42:12,938 basehttp "GET / HTTP/1.1" 200 3142
+INFO 2025-01-15 14:42:13,264 basehttp "GET / HTTP/1.1" 200 3142
+INFO 2025-01-15 14:42:13,536 basehttp "GET / HTTP/1.1" 200 3142
+INFO 2025-01-15 14:42:13,759 basehttp "GET / HTTP/1.1" 200 3142
+INFO 2025-01-15 14:42:14,003 basehttp "GET / HTTP/1.1" 200 3142
+INFO 2025-01-15 14:42:14,318 basehttp "GET / HTTP/1.1" 200 3142
+INFO 2025-01-15 14:42:14,640 basehttp "GET / HTTP/1.1" 200 3142
+INFO 2025-01-15 14:42:14,945 basehttp "GET / HTTP/1.1" 200 3142
+INFO 2025-01-15 14:42:15,927 basehttp "GET / HTTP/1.1" 200 3142
+INFO 2025-01-15 14:42:16,457 basehttp "GET / HTTP/1.1" 200 3142
+INFO 2025-01-15 14:42:16,959 basehttp "GET / HTTP/1.1" 200 3142
+INFO 2025-01-15 14:42:17,291 basehttp "GET / HTTP/1.1" 200 3142
+INFO 2025-01-15 14:42:24,259 basehttp "GET /magazin/offer HTTP/1.1" 301 0
+WARNING 2025-01-15 14:42:24,264 log Forbidden: /magazin/offer/
+WARNING 2025-01-15 14:42:24,265 basehttp "GET /magazin/offer/ HTTP/1.1" 403 395
+INFO 2025-01-15 14:45:27,939 basehttp "GET / HTTP/1.1" 200 3142
+INFO 2025-01-15 14:45:55,132 basehttp "GET /magazin/profile/ HTTP/1.1" 302 0
+INFO 2025-01-15 14:45:55,139 basehttp "GET /magazin/login/?next=/magazin/profile/ HTTP/1.1" 200 507
+WARNING 2025-01-15 14:45:58,887 log Not Found: /magazin/offers
+WARNING 2025-01-15 14:45:58,888 basehttp "GET /magazin/offers HTTP/1.1" 404 6219
+WARNING 2025-01-15 14:46:02,571 log Forbidden: /magazin/offer/
+WARNING 2025-01-15 14:46:02,571 basehttp "GET /magazin/offer/ HTTP/1.1" 403 395
+INFO 2025-01-15 22:38:06,410 autoreload Watching for file changes with StatReloader
+INFO 2025-01-15 22:38:10,633 basehttp "GET / HTTP/1.1" 200 3142
+WARNING 2025-01-15 22:38:11,132 log Not Found: /favicon.ico
+WARNING 2025-01-15 22:38:11,149 basehttp "GET /favicon.ico HTTP/1.1" 404 2513
+INFO 2025-01-15 22:38:17,100 basehttp "GET /magazin/profile/ HTTP/1.1" 302 0
+INFO 2025-01-15 22:38:17,114 basehttp "GET /magazin/login/?next=/magazin/profile/ HTTP/1.1" 200 507
+INFO 2025-01-15 22:38:27,556 basehttp "POST /magazin/login/?next=/magazin/profile/ HTTP/1.1" 200 507
+INFO 2025-01-15 22:38:46,855 basehttp "POST /magazin/login/?next=/magazin/profile/ HTTP/1.1" 200 507
+INFO 2025-01-15 22:38:51,304 basehttp "GET /magazin/profile/ HTTP/1.1" 302 0
+INFO 2025-01-15 22:38:51,310 basehttp "GET /magazin/login/?next=/magazin/profile/ HTTP/1.1" 200 507
+WARNING 2025-01-15 22:38:56,487 log Not Found: /magazin
+WARNING 2025-01-15 22:38:56,488 basehttp "GET /magazin HTTP/1.1" 404 2501
+INFO 2025-01-15 22:38:59,841 basehttp "GET / HTTP/1.1" 200 3142
+WARNING 2025-01-15 22:39:10,652 basehttp "GET /magazin/add_product/ HTTP/1.1" 403 384
+WARNING 2025-01-15 22:39:14,435 basehttp "GET /magazin/add_product/ HTTP/1.1" 403 384
+INFO 2025-01-15 22:39:22,049 basehttp "GET /magazin/login/ HTTP/1.1" 200 507
+INFO 2025-01-15 22:39:42,137 basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-01-15 22:39:42,324 basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4158
+INFO 2025-01-15 22:39:47,450 basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-01-15 22:39:47,529 basehttp "GET /admin/ HTTP/1.1" 200 13251
+INFO 2025-01-15 22:39:47,902 basehttp "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+INFO 2025-01-15 22:39:51,274 basehttp "GET /admin/magazin/customuser/ HTTP/1.1" 200 20330
+INFO 2025-01-15 22:39:51,468 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-15 22:40:07,831 basehttp "GET /magazin/profile/ HTTP/1.1" 200 673
+WARNING 2025-01-15 22:40:18,508 log Not Found: /magazin
+WARNING 2025-01-15 22:40:18,508 basehttp "GET /magazin HTTP/1.1" 404 2501
+ERROR 2025-01-15 22:40:22,713 log Internal Server Error: /magazin/add_product/
+Traceback (most recent call last):
+  File "C:\Users\calin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\base.py", line 510, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\calin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\calin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\UB\an2\Django\test\magazin\views.py", line 124, in add_product
+    return render(request, 'add_product.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\calin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\calin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\calin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\calin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\calin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\calin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\calin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\calin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\calin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\calin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\calin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\base.py", line 512, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\calin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\base.py", line 573, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 6: 'static'. Did you forget to register or load this tag?
+ERROR 2025-01-15 22:40:22,732 basehttp "GET /magazin/add_product/ HTTP/1.1" 500 145549
+ERROR 2025-01-15 22:40:24,787 log Internal Server Error: /magazin/add_product/
+Traceback (most recent call last):
+  File "C:\Users\calin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\base.py", line 510, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\calin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\calin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\UB\an2\Django\test\magazin\views.py", line 124, in add_product
+    return render(request, 'add_product.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\calin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\calin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\calin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\calin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\calin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\calin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\calin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\calin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\calin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\calin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\calin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\base.py", line 512, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\calin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\base.py", line 573, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 6: 'static'. Did you forget to register or load this tag?
+ERROR 2025-01-15 22:40:24,792 basehttp "GET /magazin/add_product/ HTTP/1.1" 500 145275
+INFO 2025-01-15 22:43:05,368 autoreload Watching for file changes with StatReloader
+INFO 2025-01-15 22:43:08,669 basehttp "GET / HTTP/1.1" 200 3817
+INFO 2025-01-15 22:43:44,545 basehttp "GET /magazin/add_product/ HTTP/1.1" 200 1993
+WARNING 2025-01-15 22:43:44,561 basehttp "GET /static/css/styles.css HTTP/1.1" 404 1856
+INFO 2025-01-15 22:44:28,294 basehttp "POST /magazin/add_product/ HTTP/1.1" 302 0
+INFO 2025-01-15 22:44:28,385 basehttp "GET /magazin/products/ HTTP/1.1" 200 1459
+INFO 2025-01-15 22:49:05,676 autoreload D:\UB\an2\Django\test\magazin\views.py changed, reloading.
+INFO 2025-01-15 22:49:06,242 autoreload Watching for file changes with StatReloader
+INFO 2025-01-15 22:49:27,489 autoreload D:\UB\an2\Django\test\magazin\views.py changed, reloading.
+INFO 2025-01-15 22:49:28,060 autoreload Watching for file changes with StatReloader
+INFO 2025-01-15 22:51:27,602 basehttp "GET / HTTP/1.1" 200 3817
+INFO 2025-01-15 22:51:35,819 basehttp "GET /magazin/add_product/ HTTP/1.1" 200 2204
+INFO 2025-01-15 22:51:35,907 basehttp "GET /static/styles.css HTTP/1.1" 200 653
+INFO 2025-01-15 22:51:43,355 basehttp "GET /magazin/add_product/ HTTP/1.1" 200 1998
+INFO 2025-01-15 22:52:13,910 basehttp "POST /magazin/add_product/ HTTP/1.1" 302 0
+INFO 2025-01-15 22:52:13,965 basehttp "GET /magazin/products/ HTTP/1.1" 200 1601
+INFO 2025-01-15 22:52:27,170 basehttp "GET /magazin/add_product/ HTTP/1.1" 200 2204
+WARNING 2025-01-15 22:52:27,385 log Not Found: /magazin/add_products/
+WARNING 2025-01-15 22:52:27,385 basehttp "GET /magazin/add_products/ HTTP/1.1" 404 6240
+INFO 2025-01-15 22:52:31,200 basehttp "GET /magazin/add_product/ HTTP/1.1" 200 1998
+INFO 2025-01-15 22:54:58,818 autoreload D:\UB\an2\Django\test\magazin\views.py changed, reloading.
+INFO 2025-01-15 22:54:59,437 autoreload Watching for file changes with StatReloader
+INFO 2025-01-15 22:55:03,491 basehttp "GET /magazin/add_product/ HTTP/1.1" 200 1998
+INFO 2025-01-15 22:55:03,504 basehttp "GET /static/styles.css HTTP/1.1" 304 0
+INFO 2025-01-15 22:55:22,994 basehttp "POST /magazin/add_product/ HTTP/1.1" 200 2255
+INFO 2025-01-15 22:55:43,518 basehttp "GET / HTTP/1.1" 200 3817
+INFO 2025-01-15 22:56:20,417 basehttp "GET /magazin/login/ HTTP/1.1" 200 507
+INFO 2025-01-15 22:56:28,821 basehttp "GET /magazin/profile/ HTTP/1.1" 200 673
+INFO 2025-01-15 22:56:31,848 basehttp "POST /magazin/logout/ HTTP/1.1" 302 0
+INFO 2025-01-15 22:56:31,851 basehttp "GET / HTTP/1.1" 200 3142
+INFO 2025-01-15 22:56:33,547 basehttp "GET /magazin/login/ HTTP/1.1" 200 507
+INFO 2025-01-15 22:56:55,146 basehttp "POST /magazin/login/ HTTP/1.1" 200 507
+INFO 2025-01-15 22:57:02,149 basehttp "GET /magazin/profile/ HTTP/1.1" 302 0
+INFO 2025-01-15 22:57:02,154 basehttp "GET /magazin/login/?next=/magazin/profile/ HTTP/1.1" 200 507
+INFO 2025-01-15 22:57:09,311 basehttp "GET /magazin/profile/ HTTP/1.1" 302 0
+INFO 2025-01-15 22:57:09,316 basehttp "GET /magazin/login/?next=/magazin/profile/ HTTP/1.1" 200 507
+INFO 2025-01-15 22:57:13,051 basehttp "GET / HTTP/1.1" 200 3142
+INFO 2025-01-15 22:57:19,400 basehttp "GET /magazin/profile/ HTTP/1.1" 302 0
+INFO 2025-01-15 22:57:19,407 basehttp "GET /magazin/login/?next=/magazin/profile/ HTTP/1.1" 200 507
+INFO 2025-01-15 22:57:21,212 basehttp "GET /magazin/profile/ HTTP/1.1" 302 0
+INFO 2025-01-15 22:57:21,217 basehttp "GET /magazin/login/?next=/magazin/profile/ HTTP/1.1" 200 507
+INFO 2025-01-15 23:29:46,279 autoreload Watching for file changes with StatReloader
+INFO 2025-01-15 23:29:54,904 basehttp "GET / HTTP/1.1" 200 3142
+INFO 2025-01-15 23:30:06,517 basehttp "GET /magazin/profile/ HTTP/1.1" 302 0
+INFO 2025-01-15 23:30:06,524 basehttp "GET /magazin/login/?next=/magazin/profile/ HTTP/1.1" 200 507
+INFO 2025-01-15 23:30:20,985 basehttp "POST /magazin/login/?next=/magazin/profile/ HTTP/1.1" 200 507
+WARNING 2025-01-15 23:30:34,298 log Not Found: /magazin/lprofile
+WARNING 2025-01-15 23:30:34,298 basehttp "GET /magazin/lprofile HTTP/1.1" 404 6225
+INFO 2025-01-15 23:30:41,653 basehttp "GET /magazin/profile/ HTTP/1.1" 302 0
+INFO 2025-01-15 23:30:41,658 basehttp "GET /magazin/login/?next=/magazin/profile/ HTTP/1.1" 200 507
+INFO 2025-01-15 23:31:09,391 basehttp "POST /magazin/login/?next=/magazin/profile/ HTTP/1.1" 302 0
+INFO 2025-01-15 23:31:09,538 basehttp "GET /magazin/profile/ HTTP/1.1" 200 709
+INFO 2025-01-15 23:31:24,037 basehttp "POST /magazin/logout/ HTTP/1.1" 302 0
+INFO 2025-01-15 23:31:24,041 basehttp "GET / HTTP/1.1" 200 3142
+INFO 2025-01-15 23:31:29,872 basehttp "GET /magazin/profile/ HTTP/1.1" 302 0
+INFO 2025-01-15 23:31:29,878 basehttp "GET /magazin/login/?next=/magazin/profile/ HTTP/1.1" 200 507
+WARNING 2025-01-15 23:31:30,985 log Not Found: /magazin/profi;e
+WARNING 2025-01-15 23:31:30,986 basehttp "GET /magazin/profi;e HTTP/1.1" 404 6224
+INFO 2025-01-15 23:31:34,903 basehttp "GET /magazin/profile/ HTTP/1.1" 302 0
+INFO 2025-01-15 23:31:34,908 basehttp "GET /magazin/login/?next=/magazin/profile/ HTTP/1.1" 200 507
+INFO 2025-01-15 23:31:45,126 basehttp "POST /magazin/login/?next=/magazin/profile/ HTTP/1.1" 200 507
+INFO 2025-01-15 23:38:20,896 autoreload D:\UB\an2\Django\test\magazin\views.py changed, reloading.
+INFO 2025-01-15 23:38:21,484 autoreload Watching for file changes with StatReloader
+INFO 2025-01-15 23:38:38,560 autoreload D:\UB\an2\Django\test\magazin\views.py changed, reloading.
+INFO 2025-01-15 23:38:39,137 autoreload Watching for file changes with StatReloader
+INFO 2025-01-15 23:38:48,648 basehttp "POST /magazin/login/?next=/magazin/profile/ HTTP/1.1" 200 507
+INFO 2025-01-15 23:40:09,201 basehttp "POST /magazin/login/?next=/magazin/profile/ HTTP/1.1" 200 900
+INFO 2025-01-15 23:40:14,061 basehttp "GET / HTTP/1.1" 200 3142
+INFO 2025-01-15 23:40:15,579 basehttp "GET /magazin/login/ HTTP/1.1" 200 512
+INFO 2025-01-15 23:40:25,437 basehttp "POST /magazin/login/ HTTP/1.1" 200 732
+INFO 2025-01-15 23:41:41,357 basehttp "POST /magazin/login/ HTTP/1.1" 200 803
+INFO 2025-01-15 23:41:41,370 basehttp "GET /static/styles.css HTTP/1.1" 304 0
+INFO 2025-01-15 23:42:56,203 basehttp "POST /magazin/login/ HTTP/1.1" 200 803
+INFO 2025-01-15 23:43:13,297 basehttp "POST /magazin/login/ HTTP/1.1" 200 583
+INFO 2025-01-15 23:43:28,099 basehttp "POST /magazin/login/ HTTP/1.1" 200 583
+INFO 2025-01-15 23:43:39,532 basehttp "POST /magazin/login/ HTTP/1.1" 200 803
+INFO 2025-01-15 23:43:55,239 basehttp "POST /magazin/login/ HTTP/1.1" 200 803
+INFO 2025-01-15 23:44:17,243 basehttp "POST /magazin/login/ HTTP/1.1" 200 803
+INFO 2025-01-15 23:44:21,026 basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-01-15 23:44:21,058 basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4158
+INFO 2025-01-15 23:44:28,113 basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-01-15 23:44:28,169 basehttp "GET /admin/ HTTP/1.1" 200 13251
+INFO 2025-01-15 23:44:28,540 basehttp "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+INFO 2025-01-15 23:44:32,079 basehttp "GET /admin/magazin/customuser/ HTTP/1.1" 200 20330
+INFO 2025-01-15 23:44:32,141 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-15 23:44:38,347 basehttp "GET /admin/magazin/customuser/13/change/ HTTP/1.1" 200 31152
+INFO 2025-01-15 23:44:38,398 basehttp "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+INFO 2025-01-15 23:44:38,413 basehttp "GET /static/admin/js/calendar.js HTTP/1.1" 200 9141
+INFO 2025-01-15 23:44:38,517 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-15 23:44:50,900 basehttp "GET /admin/magazin/customuser/13/password/ HTTP/1.1" 200 11512
+INFO 2025-01-15 23:44:50,924 basehttp "GET /static/admin/css/unusable_password_field.css HTTP/1.1" 200 663
+INFO 2025-01-15 23:44:50,931 basehttp "GET /static/admin/js/unusable_password_field.js HTTP/1.1" 200 1480
+INFO 2025-01-15 23:45:05,264 basehttp "POST /admin/magazin/customuser/13/password/ HTTP/1.1" 302 0
+INFO 2025-01-15 23:45:05,443 basehttp "GET /admin/magazin/customuser/13/change/ HTTP/1.1" 200 31288
+INFO 2025-01-15 23:45:05,515 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-15 23:45:13,563 basehttp "GET /magazin/login/ HTTP/1.1" 200 583
+INFO 2025-01-15 23:45:23,579 basehttp "POST /magazin/login/ HTTP/1.1" 200 583
+INFO 2025-01-15 23:45:35,176 basehttp "POST /magazin/login/ HTTP/1.1" 200 803
+INFO 2025-01-15 23:45:46,396 basehttp "POST /magazin/login/ HTTP/1.1" 200 583
+INFO 2025-01-15 23:45:57,315 basehttp "POST /magazin/login/ HTTP/1.1" 302 0
+INFO 2025-01-15 23:45:57,354 basehttp "GET /magazin/profile/ HTTP/1.1" 200 709
+INFO 2025-01-15 23:46:06,682 basehttp "GET /magazin/login/ HTTP/1.1" 200 583
+INFO 2025-01-15 23:46:16,192 basehttp "POST /magazin/login/ HTTP/1.1" 200 583
+INFO 2025-01-15 23:48:35,627 autoreload D:\UB\an2\Django\test\magazin\views.py changed, reloading.
+INFO 2025-01-15 23:48:36,216 autoreload Watching for file changes with StatReloader
+INFO 2025-01-15 23:48:45,467 basehttp "POST /magazin/login/ HTTP/1.1" 200 583
+INFO 2025-01-15 23:48:45,481 basehttp "GET /static/styles.css HTTP/1.1" 304 0
+INFO 2025-01-15 23:48:51,880 basehttp "POST /magazin/login/ HTTP/1.1" 200 583
+INFO 2025-01-15 23:51:32,231 basehttp "POST /magazin/login/ HTTP/1.1" 200 803
+INFO 2025-01-15 23:51:43,121 basehttp "POST /magazin/login/ HTTP/1.1" 302 0
+INFO 2025-01-15 23:51:43,164 basehttp "GET /magazin/profile/ HTTP/1.1" 200 709
+INFO 2025-01-15 23:51:47,155 basehttp "GET /magazin/login/ HTTP/1.1" 200 583
+INFO 2025-01-15 23:51:58,999 basehttp "POST /magazin/login/ HTTP/1.1" 200 583
+INFO 2025-01-15 23:52:06,682 basehttp "GET /magazin/profile/ HTTP/1.1" 200 709
+INFO 2025-01-15 23:52:09,197 basehttp "GET /magazin/profile/ HTTP/1.1" 200 709
+INFO 2025-01-15 23:52:24,254 basehttp "GET /magazin/login/ HTTP/1.1" 200 583
+INFO 2025-01-15 23:52:31,447 basehttp "POST /magazin/login/ HTTP/1.1" 200 803
+INFO 2025-01-15 23:52:37,576 basehttp "POST /magazin/login/ HTTP/1.1" 200 803
+INFO 2025-01-15 23:52:42,680 basehttp "GET /magazin/profile/ HTTP/1.1" 200 709
+INFO 2025-01-15 23:57:09,027 autoreload D:\UB\an2\Django\test\magazin\views.py changed, reloading.
+INFO 2025-01-15 23:57:09,582 autoreload Watching for file changes with StatReloader
+INFO 2025-01-15 23:57:19,250 basehttp "GET /magazin/login/ HTTP/1.1" 200 583
+INFO 2025-01-15 23:57:19,299 basehttp "GET /static/styles.css HTTP/1.1" 304 0
+INFO 2025-01-15 23:57:27,355 basehttp "POST /magazin/login/ HTTP/1.1" 200 583
+INFO 2025-01-16 00:00:06,673 autoreload D:\UB\an2\Django\test\magazin\forms.py changed, reloading.
+INFO 2025-01-16 00:00:07,225 autoreload Watching for file changes with StatReloader
+INFO 2025-01-16 00:00:13,560 basehttp "POST /magazin/login/ HTTP/1.1" 200 583
+INFO 2025-01-16 00:00:18,674 basehttp "POST /magazin/login/ HTTP/1.1" 200 583
+INFO 2025-01-16 00:00:29,739 basehttp "POST /magazin/login/ HTTP/1.1" 200 583
+INFO 2025-01-16 00:00:35,832 basehttp "POST /magazin/login/ HTTP/1.1" 302 0
+INFO 2025-01-16 00:00:35,987 basehttp "GET /magazin/profile/ HTTP/1.1" 200 709
+INFO 2025-01-16 00:14:14,327 autoreload D:\UB\an2\Django\test\magazin\views.py changed, reloading.
+INFO 2025-01-16 00:14:14,902 autoreload Watching for file changes with StatReloader
+INFO 2025-01-16 00:14:32,456 basehttp "POST /magazin/logout/ HTTP/1.1" 302 0
+INFO 2025-01-16 00:14:32,463 basehttp "GET / HTTP/1.1" 200 3142
+INFO 2025-01-16 00:14:34,236 basehttp "GET /magazin/login/ HTTP/1.1" 200 583
+INFO 2025-01-16 00:14:34,257 basehttp "GET /static/styles.css HTTP/1.1" 304 0
+INFO 2025-01-16 00:14:40,906 basehttp "POST /magazin/login/ HTTP/1.1" 200 583
+INFO 2025-01-16 00:14:50,056 basehttp "POST /magazin/login/ HTTP/1.1" 200 583
+INFO 2025-01-16 00:15:02,719 basehttp "POST /magazin/login/ HTTP/1.1" 302 0
+INFO 2025-01-16 00:15:02,761 basehttp "GET /magazin/profile/ HTTP/1.1" 200 709
+INFO 2025-01-16 00:22:49,808 autoreload D:\UB\an2\Django\test\test\settings.py changed, reloading.
+INFO 2025-01-16 00:22:50,407 autoreload Watching for file changes with StatReloader
+INFO 2025-01-16 00:25:49,355 autoreload D:\UB\an2\Django\test\magazin\forms.py changed, reloading.
+INFO 2025-01-16 00:25:49,979 autoreload Watching for file changes with StatReloader
+INFO 2025-01-16 00:25:53,580 autoreload D:\UB\an2\Django\test\magazin\views.py changed, reloading.
+INFO 2025-01-16 00:25:54,146 autoreload Watching for file changes with StatReloader
+INFO 2025-01-16 00:26:52,973 basehttp "POST /magazin/logout/ HTTP/1.1" 302 0
+INFO 2025-01-16 00:26:52,979 basehttp "GET / HTTP/1.1" 200 3142
+INFO 2025-01-16 00:26:54,748 basehttp "GET /magazin/login/ HTTP/1.1" 200 555
+INFO 2025-01-16 00:26:54,771 basehttp "GET /static/styles.css HTTP/1.1" 304 0
+INFO 2025-01-16 00:27:04,746 basehttp "POST /magazin/login/ HTTP/1.1" 200 555
+INFO 2025-01-16 00:27:13,415 basehttp "POST /magazin/login/ HTTP/1.1" 200 555
+INFO 2025-01-16 00:28:03,441 basehttp "POST /magazin/login/ HTTP/1.1" 302 0
+INFO 2025-01-16 00:28:03,590 basehttp "GET /magazin/profile/ HTTP/1.1" 200 709
+INFO 2025-01-16 00:29:19,027 basehttp "GET /magazin/profile/ HTTP/1.1" 200 917
+INFO 2025-01-16 00:29:30,558 basehttp "GET /magazin/profile/ HTTP/1.1" 200 915
+INFO 2025-01-16 00:29:31,683 basehttp "POST / HTTP/1.1" 200 3817
+INFO 2025-01-16 00:29:50,361 basehttp "POST / HTTP/1.1" 200 3817
+INFO 2025-01-16 00:29:52,493 basehttp "POST / HTTP/1.1" 200 3817
+INFO 2025-01-16 00:29:59,990 basehttp "POST / HTTP/1.1" 200 3817
+INFO 2025-01-16 00:30:01,496 basehttp "GET /magazin/activate_offer/ HTTP/1.1" 302 0
+INFO 2025-01-16 00:30:01,668 basehttp "GET /magazin/offer/ HTTP/1.1" 200 318
+INFO 2025-01-16 00:30:11,862 basehttp "GET /magazin/offer/ HTTP/1.1" 200 318
+INFO 2025-01-16 00:30:14,988 basehttp "GET / HTTP/1.1" 200 3817
+INFO 2025-01-16 00:32:28,616 basehttp "GET /magazin/login/ HTTP/1.1" 200 555
+INFO 2025-01-16 00:32:36,149 basehttp "POST /magazin/login/ HTTP/1.1" 200 775
+INFO 2025-01-16 00:32:44,063 basehttp "POST /magazin/login/ HTTP/1.1" 200 775
+INFO 2025-01-16 00:32:49,383 basehttp "POST /magazin/login/ HTTP/1.1" 200 775
+INFO 2025-01-16 00:33:05,161 basehttp "POST /magazin/login/ HTTP/1.1" 200 775
+INFO 2025-01-16 00:33:46,445 basehttp "POST /magazin/login/ HTTP/1.1" 200 775
+INFO 2025-01-16 00:38:06,212 basehttp "GET /magazin/contact HTTP/1.1" 301 0
+INFO 2025-01-16 00:38:06,226 basehttp "GET /magazin/contact/ HTTP/1.1" 200 1785
+INFO 2025-01-16 00:53:55,116 autoreload D:\UB\an2\Django\test\magazin\views.py changed, reloading.
+INFO 2025-01-16 00:53:55,695 autoreload Watching for file changes with StatReloader
+INFO 2025-01-16 00:58:49,583 autoreload Watching for file changes with StatReloader
+INFO 2025-01-16 00:59:57,372 autoreload D:\UB\an2\Django\test\test\settings.py changed, reloading.
+INFO 2025-01-16 00:59:57,948 autoreload Watching for file changes with StatReloader
+INFO 2025-01-16 01:00:01,626 basehttp "GET /magazin/contact/ HTTP/1.1" 200 1785
+INFO 2025-01-16 01:00:03,745 basehttp "GET / HTTP/1.1" 200 3817
+INFO 2025-01-16 01:00:07,396 basehttp "GET /magazin/login/ HTTP/1.1" 200 555
+INFO 2025-01-16 01:00:07,423 basehttp "GET /static/styles.css HTTP/1.1" 304 0
+INFO 2025-01-16 01:00:13,198 basehttp "GET /magazin/profile/ HTTP/1.1" 200 915
+INFO 2025-01-16 01:00:22,558 basehttp "POST / HTTP/1.1" 200 3817
+INFO 2025-01-16 01:16:45,799 autoreload Watching for file changes with StatReloader
+INFO 2025-01-16 01:16:49,536 basehttp "GET / HTTP/1.1" 200 3817
+INFO 2025-01-16 01:16:56,548 basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-01-16 01:16:56,724 basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3678
+INFO 2025-01-16 01:17:06,986 basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-01-16 01:17:07,041 basehttp "GET /admin/ HTTP/1.1" 200 13262
+INFO 2025-01-16 01:26:13,953 basehttp "GET /admin/auth/group/ HTTP/1.1" 200 11885
+INFO 2025-01-16 01:26:14,018 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-16 01:26:30,084 basehttp "GET /admin/auth/group/2/change/ HTTP/1.1" 200 16565
+INFO 2025-01-16 01:26:30,139 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-16 01:26:49,156 basehttp "GET /admin/magazin/customuser/ HTTP/1.1" 200 20397
+INFO 2025-01-16 01:26:49,313 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-16 01:27:11,565 basehttp "GET /admin/magazin/customuser/13/change/ HTTP/1.1" 200 31193
+INFO 2025-01-16 01:27:11,620 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-16 01:27:32,998 basehttp "GET /admin/magazin/customuser/ HTTP/1.1" 200 20397
+INFO 2025-01-16 01:27:41,895 basehttp "GET /admin/magazin/customuser/13/change/ HTTP/1.1" 200 31193
+INFO 2025-01-16 01:27:41,949 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-16 01:28:14,161 basehttp "POST /admin/magazin/customuser/13/change/ HTTP/1.1" 302 0
+INFO 2025-01-16 01:28:14,214 basehttp "GET /admin/magazin/customuser/ HTTP/1.1" 200 20613
+INFO 2025-01-16 01:28:14,437 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-16 01:29:14,407 autoreload Watching for file changes with StatReloader
+INFO 2025-01-16 01:29:14,861 basehttp "GET / HTTP/1.1" 200 3817
+INFO 2025-01-16 01:29:18,934 basehttp "GET /magazin/login/ HTTP/1.1" 200 555
+INFO 2025-01-16 01:29:18,953 basehttp "GET /static/styles.css HTTP/1.1" 304 0
+INFO 2025-01-16 01:29:28,784 basehttp "POST /magazin/login/ HTTP/1.1" 302 0
+INFO 2025-01-16 01:29:28,824 basehttp "GET /magazin/profile/ HTTP/1.1" 200 874
+INFO 2025-01-16 01:30:28,967 basehttp "POST / HTTP/1.1" 200 3817
+INFO 2025-01-16 01:30:33,399 basehttp "GET /admin/ HTTP/1.1" 200 9790
+INFO 2025-01-16 01:30:59,082 basehttp "GET /admin/magazin/review/ HTTP/1.1" 200 11592
+INFO 2025-01-16 01:30:59,147 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-16 01:31:00,699 basehttp "GET /admin/auth/group/ HTTP/1.1" 200 11891
+INFO 2025-01-16 01:31:00,754 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-16 01:31:03,033 basehttp "GET /admin/magazin/customuser/ HTTP/1.1" 200 20403
+INFO 2025-01-16 01:31:03,088 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-16 01:35:31,380 autoreload D:\UB\an2\Django\test\magazin\admin.py changed, reloading.
+INFO 2025-01-16 01:35:31,965 autoreload Watching for file changes with StatReloader
+INFO 2025-01-16 01:36:31,574 autoreload Watching for file changes with StatReloader
+INFO 2025-01-16 01:36:33,729 basehttp "GET / HTTP/1.1" 200 3817
+INFO 2025-01-16 01:36:47,051 basehttp "GET /magazin/profile/ HTTP/1.1" 200 874
+INFO 2025-01-16 01:36:49,114 basehttp "POST / HTTP/1.1" 200 3817
+INFO 2025-01-16 01:36:54,153 basehttp "GET /admin/ HTTP/1.1" 200 9790
+INFO 2025-01-16 01:37:18,161 autoreload D:\UB\an2\Django\test\magazin\admin.py changed, reloading.
+INFO 2025-01-16 01:37:18,740 autoreload Watching for file changes with StatReloader
+INFO 2025-01-16 01:40:55,213 autoreload D:\UB\an2\Django\test\magazin\admin.py changed, reloading.
+INFO 2025-01-16 01:40:55,803 autoreload Watching for file changes with StatReloader
+INFO 2025-01-16 01:41:52,357 autoreload D:\UB\an2\Django\test\magazin\admin.py changed, reloading.
+INFO 2025-01-16 01:41:52,921 autoreload Watching for file changes with StatReloader
+INFO 2025-01-16 01:43:48,645 autoreload D:\UB\an2\Django\test\magazin\admin.py changed, reloading.
+INFO 2025-01-16 01:43:49,267 autoreload Watching for file changes with StatReloader
+INFO 2025-01-16 01:44:54,926 basehttp "GET /admin/ HTTP/1.1" 200 9790
+INFO 2025-01-16 01:44:59,284 basehttp "GET / HTTP/1.1" 200 3817
+INFO 2025-01-16 01:45:07,233 basehttp "GET /magazin/profile/ HTTP/1.1" 200 874
+INFO 2025-01-16 01:45:10,815 basehttp "GET /admin/ HTTP/1.1" 200 9790
+INFO 2025-01-16 01:45:20,358 basehttp "GET /admin/magazin/customuser/ HTTP/1.1" 200 21458
+INFO 2025-01-16 01:45:20,426 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-16 01:45:23,887 basehttp "GET /admin/magazin/order/ HTTP/1.1" 200 11919
+INFO 2025-01-16 01:45:23,939 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-16 01:45:25,395 basehttp "GET /admin/magazin/orderitem/ HTTP/1.1" 200 10339
+INFO 2025-01-16 01:45:25,453 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-16 01:45:27,288 basehttp "GET /admin/magazin/review/ HTTP/1.1" 200 11592
+INFO 2025-01-16 01:45:27,339 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-16 01:45:29,057 basehttp "GET /admin/magazin/product/ HTTP/1.1" 200 14929
+INFO 2025-01-16 01:45:29,226 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-16 01:45:32,960 basehttp "GET /admin/magazin/product/add/ HTTP/1.1" 200 15628
+INFO 2025-01-16 01:45:33,015 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-16 01:45:45,817 basehttp "POST /admin/magazin/product/add/ HTTP/1.1" 302 0
+INFO 2025-01-16 01:45:45,873 basehttp "GET /admin/magazin/product/ HTTP/1.1" 200 15538
+INFO 2025-01-16 01:45:46,090 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-16 01:46:11,192 basehttp "GET /admin/magazin/customuser/ HTTP/1.1" 200 21458
+INFO 2025-01-16 01:46:11,353 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-16 01:46:17,926 basehttp "GET /admin/magazin/customuser/13/change/ HTTP/1.1" 200 31997
+INFO 2025-01-16 01:46:18,100 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-16 01:46:36,102 basehttp "POST /admin/magazin/customuser/13/change/ HTTP/1.1" 302 0
+INFO 2025-01-16 01:46:36,154 basehttp "GET /admin/magazin/customuser/ HTTP/1.1" 200 21674
+INFO 2025-01-16 01:46:36,377 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-16 01:46:45,330 basehttp "GET /admin/magazin/category/ HTTP/1.1" 200 13404
+INFO 2025-01-16 01:46:45,383 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-16 01:46:48,493 basehttp "GET /admin/auth/group/ HTTP/1.1" 200 11891
+INFO 2025-01-16 01:46:48,544 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-16 01:46:50,741 basehttp "GET /admin/auth/group/2/change/ HTTP/1.1" 200 16571
+INFO 2025-01-16 01:46:50,795 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-16 01:46:56,778 basehttp "GET /admin/magazin/order/ HTTP/1.1" 200 11919
+INFO 2025-01-16 01:46:56,942 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-16 01:46:57,573 basehttp "GET /admin/magazin/category/ HTTP/1.1" 200 13404
+INFO 2025-01-16 01:46:57,627 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-16 01:46:59,532 basehttp "GET /admin/magazin/product/ HTTP/1.1" 200 15340
+INFO 2025-01-16 01:46:59,584 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-16 01:47:03,323 basehttp "GET /admin/magazin/product/ HTTP/1.1" 200 15340
+INFO 2025-01-16 01:47:03,372 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-16 01:47:15,247 basehttp "GET /admin/magazin/product/add/ HTTP/1.1" 200 15628
+INFO 2025-01-16 01:47:15,304 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-16 01:47:30,250 basehttp "POST /admin/magazin/product/add/ HTTP/1.1" 302 0
+INFO 2025-01-16 01:47:30,307 basehttp "GET /admin/magazin/product/ HTTP/1.1" 200 15936
+INFO 2025-01-16 01:47:30,618 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-16 01:47:41,375 basehttp "POST /admin/magazin/product/ HTTP/1.1" 200 10186
+INFO 2025-01-16 01:47:41,479 basehttp "GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+INFO 2025-01-16 01:47:42,791 basehttp "POST /admin/magazin/product/ HTTP/1.1" 302 0
+INFO 2025-01-16 01:47:42,848 basehttp "GET /admin/magazin/product/ HTTP/1.1" 200 15067
+INFO 2025-01-16 01:47:43,056 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-16 01:51:30,404 autoreload Watching for file changes with StatReloader
+INFO 2025-01-16 01:51:33,678 basehttp "GET / HTTP/1.1" 200 3817
+INFO 2025-01-16 01:51:39,042 basehttp "GET /admin/ HTTP/1.1" 200 11480
+INFO 2025-01-16 01:51:53,706 basehttp "GET /admin/magazin/product/ HTTP/1.1" 200 14929
+INFO 2025-01-16 01:51:53,875 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-16 01:51:56,363 basehttp "GET /admin/magazin/product/add/ HTTP/1.1" 200 15628
+INFO 2025-01-16 01:51:56,415 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-16 01:52:15,317 basehttp "POST /admin/magazin/product/add/ HTTP/1.1" 302 0
+INFO 2025-01-16 01:52:15,377 basehttp "GET /admin/magazin/product/ HTTP/1.1" 200 15537
+INFO 2025-01-16 01:52:15,709 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-16 01:54:33,098 autoreload D:\UB\an2\Django\test\magazin\admin.py changed, reloading.
+INFO 2025-01-16 01:54:33,703 autoreload Watching for file changes with StatReloader
+INFO 2025-01-16 01:56:31,485 autoreload D:\UB\an2\Django\test\magazin\admin.py changed, reloading.
+INFO 2025-01-16 01:56:32,074 autoreload Watching for file changes with StatReloader
+INFO 2025-01-16 01:56:56,438 autoreload D:\UB\an2\Django\test\magazin\admin.py changed, reloading.
+INFO 2025-01-16 01:56:57,029 autoreload Watching for file changes with StatReloader
+INFO 2025-01-16 01:57:05,810 basehttp "GET / HTTP/1.1" 200 3817
+INFO 2025-01-16 01:57:09,495 basehttp "GET /admin/ HTTP/1.1" 200 11826
+INFO 2025-01-16 01:57:32,011 basehttp "GET /admin/magazin/customuser/ HTTP/1.1" 200 18747
+INFO 2025-01-16 01:57:45,728 basehttp "GET /admin/magazin/customuser/13/change/ HTTP/1.1" 200 31901
+INFO 2025-01-16 01:57:45,782 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-16 01:58:10,642 basehttp "POST /admin/magazin/customuser/13/change/ HTTP/1.1" 302 0
+INFO 2025-01-16 01:58:10,702 basehttp "GET /admin/magazin/customuser/ HTTP/1.1" 200 21674
+INFO 2025-01-16 01:58:10,826 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-16 01:58:14,672 basehttp "GET /admin/magazin/customuser/ HTTP/1.1" 200 21458
+INFO 2025-01-16 01:58:14,724 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-16 01:58:20,634 basehttp "GET /magazin/login/ HTTP/1.1" 200 555
+INFO 2025-01-16 01:58:20,690 basehttp "GET /static/styles.css HTTP/1.1" 304 0
+INFO 2025-01-16 01:58:33,289 basehttp "POST /magazin/login/ HTTP/1.1" 302 0
+INFO 2025-01-16 01:58:33,327 basehttp "GET /magazin/profile/ HTTP/1.1" 200 915
+INFO 2025-01-16 01:58:35,687 basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-01-16 01:58:35,843 basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3678
+INFO 2025-01-16 01:58:47,591 basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-01-16 01:58:47,641 basehttp "GET /admin/ HTTP/1.1" 200 12191
+INFO 2025-01-16 11:24:32,864 autoreload Watching for file changes with StatReloader
+INFO 2025-01-16 11:24:38,278 basehttp "GET / HTTP/1.1" 200 3817
+WARNING 2025-01-16 11:24:38,829 log Not Found: /favicon.ico
+WARNING 2025-01-16 11:24:38,859 basehttp "GET /favicon.ico HTTP/1.1" 404 2513
+INFO 2025-01-16 11:24:49,437 basehttp "GET /magazin/profile/ HTTP/1.1" 200 874
+INFO 2025-01-16 11:24:52,042 basehttp "POST / HTTP/1.1" 200 3817
+INFO 2025-01-16 11:25:03,224 basehttp "GET /admin/ HTTP/1.1" 200 12191
+INFO 2025-01-16 11:29:22,740 autoreload D:\UB\an2\Django\test\magazin\admin.py changed, reloading.
+INFO 2025-01-16 11:29:23,427 autoreload Watching for file changes with StatReloader
+INFO 2025-01-16 11:30:26,458 autoreload Watching for file changes with StatReloader
+INFO 2025-01-16 11:30:33,166 basehttp "GET / HTTP/1.1" 200 3817
+INFO 2025-01-16 11:30:38,964 basehttp "GET /admin/ HTTP/1.1" 200 12191
+INFO 2025-01-16 11:40:45,685 autoreload D:\UB\an2\Django\test\magazin\admin.py changed, reloading.
+INFO 2025-01-16 11:40:46,282 autoreload Watching for file changes with StatReloader
+INFO 2025-01-16 11:48:51,135 autoreload Watching for file changes with StatReloader
+INFO 2025-01-16 11:48:54,271 basehttp "GET / HTTP/1.1" 200 3817
+INFO 2025-01-16 11:48:58,051 basehttp "GET /admin/ HTTP/1.1" 200 11461
+INFO 2025-01-16 11:49:56,339 basehttp "GET /admin/auth/group/ HTTP/1.1" 200 11444
+INFO 2025-01-16 11:49:56,533 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-16 11:49:58,927 basehttp "GET /admin/auth/group/2/change/ HTTP/1.1" 200 16124
+INFO 2025-01-16 11:49:59,087 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-16 11:50:01,285 basehttp "GET /admin/magazin/category/ HTTP/1.1" 200 12957
+INFO 2025-01-16 11:50:01,336 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-16 11:50:03,269 basehttp "GET /admin/magazin/product/ HTTP/1.1" 200 14565
+INFO 2025-01-16 11:50:03,433 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-16 11:50:07,282 basehttp "GET /admin/ HTTP/1.1" 200 11461
+INFO 2025-01-16 11:50:27,609 basehttp "GET /admin/auth/group/ HTTP/1.1" 200 11444
+INFO 2025-01-16 11:50:27,670 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-16 11:50:30,189 basehttp "GET /admin/ HTTP/1.1" 200 11461
+INFO 2025-01-16 11:50:34,389 basehttp "POST /admin/logout/ HTTP/1.1" 302 0
+INFO 2025-01-16 11:50:34,392 basehttp "GET / HTTP/1.1" 200 3142
+INFO 2025-01-16 11:50:37,601 basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-01-16 11:50:37,638 basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4158
+INFO 2025-01-16 11:50:45,306 basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-01-16 11:50:45,356 basehttp "GET /admin/ HTTP/1.1" 200 12495
+INFO 2025-01-16 12:00:43,136 autoreload D:\UB\an2\Django\test\magazin\admin.py changed, reloading.
+INFO 2025-01-16 12:00:43,744 autoreload Watching for file changes with StatReloader
+INFO 2025-01-16 12:01:50,149 autoreload Watching for file changes with StatReloader
+INFO 2025-01-16 12:02:42,601 autoreload Watching for file changes with StatReloader
+INFO 2025-01-16 12:02:58,056 autoreload Watching for file changes with StatReloader
+INFO 2025-01-16 12:03:00,566 autoreload D:\UB\an2\Django\test\magazin\admin.py changed, reloading.
+INFO 2025-01-16 12:03:01,129 autoreload Watching for file changes with StatReloader
+INFO 2025-01-16 12:11:14,755 autoreload Watching for file changes with StatReloader
+INFO 2025-01-16 12:11:18,021 basehttp "GET /admin/ HTTP/1.1" 200 13276
+INFO 2025-01-16 12:11:20,210 basehttp "GET /admin/magazin/customuser/ HTTP/1.1" 200 21452
+INFO 2025-01-16 12:11:20,270 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-16 12:11:36,928 basehttp "GET / HTTP/1.1" 200 3817
+INFO 2025-01-16 12:11:41,275 basehttp "GET /magazin/register HTTP/1.1" 301 0
+INFO 2025-01-16 12:11:41,341 basehttp "GET /magazin/register/ HTTP/1.1" 200 2409
+INFO 2025-01-16 12:12:14,748 basehttp "POST /magazin/register/ HTTP/1.1" 302 0
+INFO 2025-01-16 12:12:14,771 basehttp "GET /magazin/login/ HTTP/1.1" 200 555
+INFO 2025-01-16 12:12:14,799 basehttp "GET /static/styles.css HTTP/1.1" 304 0
+INFO 2025-01-16 12:12:54,344 basehttp "GET /magazin/confirma_mail/d75ad4d2-72d2-4c95-ac5d-a2e8f83bd047 HTTP/1.1" 301 0
+INFO 2025-01-16 12:12:54,504 basehttp "GET /magazin/confirma_mail/d75ad4d2-72d2-4c95-ac5d-a2e8f83bd047/ HTTP/1.1" 200 361
+WARNING 2025-01-16 12:12:54,899 log Not Found: /favicon.ico
+WARNING 2025-01-16 12:12:54,899 basehttp "GET /favicon.ico HTTP/1.1" 404 2513
+INFO 2025-01-16 12:12:56,912 basehttp "GET /magazin/login/ HTTP/1.1" 200 555
+INFO 2025-01-16 12:12:57,015 basehttp "GET /static/styles.css HTTP/1.1" 200 653
+INFO 2025-01-16 12:13:10,001 basehttp "GET /magazin/profile/ HTTP/1.1" 302 0
+INFO 2025-01-16 12:13:10,007 basehttp "GET /magazin/login/?next=/magazin/profile/ HTTP/1.1" 200 555
+INFO 2025-01-16 12:13:20,576 basehttp "GET /admin HTTP/1.1" 301 0
+INFO 2025-01-16 12:13:20,579 basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-01-16 12:13:20,588 basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4158
+INFO 2025-01-16 12:13:20,624 basehttp "GET /static/admin/css/base.css HTTP/1.1" 200 22092
+INFO 2025-01-16 12:13:20,643 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2804
+INFO 2025-01-16 12:13:20,654 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2025-01-16 12:13:20,740 basehttp "GET /static/admin/css/login.css HTTP/1.1" 200 951
+INFO 2025-01-16 12:13:20,762 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 200 17972
+INFO 2025-01-16 12:13:20,855 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+INFO 2025-01-16 12:13:21,123 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2025-01-16 12:13:29,284 basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-01-16 12:13:29,453 basehttp "GET /admin/ HTTP/1.1" 200 13276
+INFO 2025-01-16 12:13:29,502 basehttp "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2025-01-16 12:13:29,683 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2025-01-16 12:13:29,683 basehttp "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+INFO 2025-01-16 12:13:29,683 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2025-01-16 12:13:38,415 basehttp "GET /admin/magazin/customuser/ HTTP/1.1" 200 22113
+INFO 2025-01-16 12:13:38,452 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 200 6878
+INFO 2025-01-16 12:13:38,456 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2025-01-16 12:13:38,468 basehttp "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2025-01-16 12:13:38,472 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9097
+INFO 2025-01-16 12:13:38,479 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+INFO 2025-01-16 12:13:38,491 basehttp "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2025-01-16 12:13:38,500 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2025-01-16 12:13:38,500 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2025-01-16 12:13:38,504 basehttp "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+INFO 2025-01-16 12:13:38,530 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2025-01-16 12:13:38,581 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-16 12:13:38,585 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2025-01-16 12:13:38,654 basehttp "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2025-01-16 12:13:38,669 basehttp "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2025-01-16 12:13:38,685 basehttp "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2025-01-16 12:13:38,685 basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2025-01-16 12:13:38,686 basehttp "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2025-01-16 12:13:51,783 basehttp "GET /admin/magazin/customuser/15/change/ HTTP/1.1" 200 32285
+INFO 2025-01-16 12:13:51,819 basehttp "GET /static/admin/css/forms.css HTTP/1.1" 200 8710
+INFO 2025-01-16 12:13:51,828 basehttp "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15502
+INFO 2025-01-16 12:13:51,830 basehttp "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+INFO 2025-01-16 12:13:51,833 basehttp "GET /static/admin/js/calendar.js HTTP/1.1" 200 9141
+INFO 2025-01-16 12:13:51,834 basehttp "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+INFO 2025-01-16 12:13:51,851 basehttp "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2025-01-16 12:13:51,855 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-16 12:13:51,941 basehttp "GET /static/admin/css/widgets.css HTTP/1.1" 200 11564
+INFO 2025-01-16 12:13:51,946 basehttp "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2025-01-16 12:13:52,058 basehttp "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+INFO 2025-01-16 12:13:52,058 basehttp "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2025-01-16 12:13:52,058 basehttp "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+INFO 2025-01-16 12:13:52,059 basehttp "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2025-01-16 12:13:52,061 basehttp "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+INFO 2025-01-16 12:14:00,033 basehttp "POST /admin/magazin/customuser/15/change/ HTTP/1.1" 302 0
+INFO 2025-01-16 12:14:00,199 basehttp "GET /admin/magazin/customuser/ HTTP/1.1" 200 22328
+INFO 2025-01-16 12:14:00,296 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-16 12:14:05,631 basehttp "GET / HTTP/1.1" 200 3817
+INFO 2025-01-16 12:14:07,431 basehttp "GET /magazin/login/ HTTP/1.1" 200 555
+INFO 2025-01-16 12:14:22,070 basehttp "POST /magazin/login/ HTTP/1.1" 200 753
+INFO 2025-01-16 12:23:48,692 autoreload D:\UB\an2\Django\test\magazin\admin.py changed, reloading.
+INFO 2025-01-16 12:23:49,291 autoreload Watching for file changes with StatReloader
+INFO 2025-01-16 12:28:56,952 autoreload D:\UB\an2\Django\test\magazin\admin.py changed, reloading.
+INFO 2025-01-16 12:28:57,562 autoreload Watching for file changes with StatReloader
+INFO 2025-01-16 12:29:06,643 basehttp "GET / HTTP/1.1" 200 3817
+INFO 2025-01-16 12:29:09,541 basehttp "GET /admin/ HTTP/1.1" 200 13284
+INFO 2025-01-16 12:29:21,068 basehttp "GET /admin/auth/group/ HTTP/1.1" 200 11885
+INFO 2025-01-16 12:29:21,135 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-16 12:29:28,552 basehttp "POST /admin/auth/group/ HTTP/1.1" 200 10259
+INFO 2025-01-16 12:29:28,678 basehttp "GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+INFO 2025-01-16 12:29:29,604 basehttp "POST /admin/auth/group/ HTTP/1.1" 302 0
+INFO 2025-01-16 12:29:29,655 basehttp "GET /admin/auth/group/ HTTP/1.1" 200 11753
+INFO 2025-01-16 12:29:29,817 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-16 12:29:35,505 basehttp "GET /admin/auth/group/add/ HTTP/1.1" 200 16315
+INFO 2025-01-16 12:29:35,660 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-16 12:30:15,000 basehttp "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+INFO 2025-01-16 12:30:15,051 basehttp "GET /admin/auth/group/ HTTP/1.1" 200 12083
+INFO 2025-01-16 12:30:15,297 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-16 12:32:24,131 autoreload D:\UB\an2\Django\test\magazin\admin.py changed, reloading.
+INFO 2025-01-16 12:32:24,712 autoreload Watching for file changes with StatReloader
+INFO 2025-01-16 12:33:59,422 basehttp "GET / HTTP/1.1" 200 3817
+INFO 2025-01-16 12:34:01,649 basehttp "GET /magazin/login/ HTTP/1.1" 200 555
+INFO 2025-01-16 12:34:15,027 basehttp "POST /magazin/login/ HTTP/1.1" 302 0
+INFO 2025-01-16 12:34:15,068 basehttp "GET /magazin/profile/ HTTP/1.1" 200 874
+INFO 2025-01-16 12:34:19,960 basehttp "GET /admin/ HTTP/1.1" 200 11461
+INFO 2025-01-16 12:34:42,466 basehttp "POST /admin/logout/ HTTP/1.1" 302 0
+INFO 2025-01-16 12:34:42,469 basehttp "GET / HTTP/1.1" 200 3142
+INFO 2025-01-16 12:34:48,498 basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-01-16 12:34:48,510 basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4158
+INFO 2025-01-16 12:34:56,212 basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-01-16 12:34:56,362 basehttp "GET /admin/ HTTP/1.1" 200 12393
+INFO 2025-01-16 12:44:18,218 autoreload Watching for file changes with StatReloader
+INFO 2025-01-16 12:45:34,490 autoreload Watching for file changes with StatReloader
+INFO 2025-01-16 12:45:37,940 basehttp "GET / HTTP/1.1" 200 3817
+INFO 2025-01-16 12:45:47,362 basehttp "GET /admin/ HTTP/1.1" 200 13225
+INFO 2025-01-16 12:45:50,784 basehttp "GET /admin/auth/group/ HTTP/1.1" 200 11885
+INFO 2025-01-16 12:45:50,962 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-16 12:45:52,508 basehttp "GET /admin/auth/group/3/change/ HTTP/1.1" 200 16565
+INFO 2025-01-16 12:45:52,662 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-16 12:45:56,304 basehttp "GET /admin/ HTTP/1.1" 200 13225
+INFO 2025-01-16 12:45:57,981 basehttp "GET /admin/magazin/customuser/ HTTP/1.1" 200 22113
+INFO 2025-01-16 12:45:58,037 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-16 12:46:06,871 basehttp "GET /admin/magazin/customuser/13/change/ HTTP/1.1" 200 31982
+INFO 2025-01-16 12:46:06,928 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-16 12:46:42,104 basehttp "POST /admin/magazin/customuser/13/change/ HTTP/1.1" 302 0
+INFO 2025-01-16 12:46:42,156 basehttp "GET /admin/magazin/customuser/ HTTP/1.1" 200 22329
+INFO 2025-01-16 12:46:42,419 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-16 12:46:48,059 basehttp "GET /admin/magazin/customuser/13/change/ HTTP/1.1" 200 31974
+INFO 2025-01-16 12:46:48,125 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-16 12:46:55,186 basehttp "GET /admin/magazin/customuser/ HTTP/1.1" 200 22113
+INFO 2025-01-16 12:47:02,300 basehttp "POST /admin/logout/ HTTP/1.1" 302 0
+INFO 2025-01-16 12:47:02,304 basehttp "GET / HTTP/1.1" 200 3142
+INFO 2025-01-16 12:47:07,845 basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-01-16 12:47:07,854 basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4158
+INFO 2025-01-16 12:47:09,036 basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-01-16 12:47:09,043 basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4158
+INFO 2025-01-16 12:47:30,671 basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-01-16 12:47:30,826 basehttp "GET /admin/ HTTP/1.1" 200 7649
+INFO 2025-01-16 12:47:47,668 basehttp "GET /admin/magazin/customuser/ HTTP/1.1" 200 15787
+INFO 2025-01-16 14:31:58,497 autoreload Watching for file changes with StatReloader
+INFO 2025-01-16 14:32:01,709 basehttp "GET / HTTP/1.1" 200 3817
+INFO 2025-01-16 14:32:05,419 basehttp "GET /admin/ HTTP/1.1" 200 13234
+INFO 2025-01-16 14:32:09,367 basehttp "GET /admin/auth/group/ HTTP/1.1" 200 11885
+INFO 2025-01-16 14:32:09,429 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-16 14:32:11,957 basehttp "GET /admin/auth/group/1/change/ HTTP/1.1" 200 16631
+INFO 2025-01-16 14:32:12,018 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-16 14:33:37,560 basehttp "GET /admin/auth/ HTTP/1.1" 200 5309
+INFO 2025-01-16 14:33:38,626 basehttp "GET /admin/ HTTP/1.1" 200 13234
+INFO 2025-01-16 14:33:40,764 basehttp "GET /admin/magazin/category/ HTTP/1.1" 200 13398
+INFO 2025-01-16 14:33:40,820 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-16 14:40:59,222 basehttp "GET /admin/magazin/product/ HTTP/1.1" 200 15006
+INFO 2025-01-16 14:40:59,396 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-16 14:41:23,877 basehttp "GET /admin/magazin/product/4/change/ HTTP/1.1" 200 16172
+INFO 2025-01-16 14:41:23,930 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-16 14:45:28,813 basehttp "GET /admin/magazin/product/4/change/ HTTP/1.1" 200 16172
+INFO 2025-01-16 14:45:28,974 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-01-16 14:45:32,905 basehttp "GET / HTTP/1.1" 200 3817
+INFO 2025-01-16 14:45:34,491 basehttp "GET /magazin/register/ HTTP/1.1" 200 2409
+INFO 2025-01-16 14:46:16,362 basehttp "POST /magazin/register/ HTTP/1.1" 302 0
+INFO 2025-01-16 14:46:16,366 basehttp "GET /magazin/login/ HTTP/1.1" 200 555
+INFO 2025-01-16 14:46:16,387 basehttp "GET /static/styles.css HTTP/1.1" 304 0

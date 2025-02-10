@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Filters</title>
+</head>
+<body>
+    <h1>Filter Products</h1>
+    <form method="get">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" value="{{ request.GET.name }}">
+
+        <label for="category">Category:</label>
+        <input type="text" name="category" id="category" value="{{ request.GET.category }}">
+
+        <label for="price_min">Min Price:</label>
+        <input type="number" name="price_min" id="price_min" value="{{ request.GET.price_min }}">
+
+        <label for="price_max">Max Price:</label>
+        <input type="number" name="price_max" id="price_max" value="{{ request.GET.price_max }}">
+
+        <label for="stock">Min Stock:</label>
+        <input type="number" name="stock" id="stock" value="{{ request.GET.stock }}">
+
+        <button type="submit">Filter</button>
+    </form>
+
+    <h2>Products</h2>
+    <ul>
+        {% for product in products %}
+            <li>
+                <a href="{% url 'product_detail' product.id %}">{{ product.name }}</a>
+                - ${{ product.price }} - Views: {{ product.view_count }}
+            </li>
+        {% empty %}
+            <li>No products available.</li>
+        {% endfor %}
+    </ul>
+
+    <h2>Pagination</h2>
+    <div>
+        {% if page_obj.has_previous %}
+            <a href="?{% for key, value in request.GET.items %}{% if key != 'page' %}{{ key }}={{ value }}&{% endif %}{% endfor %}page={{ page_obj.previous_page_number }}">Previous</a>
+        {% endif %}
+
+        <span>Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}</span>
+
+        {% if page_obj.has_next %}
+            <a href="?{% for key, value in request.GET.items %}{% if key != 'page' %}{{ key }}={{ value }}&{% endif %}{% endfor %}page={{ page_obj.next_page_number }}">Next</a>
+        {% endif %}
+    </div>
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    {% if user.is_authenticated %}
+    <script>
+        // Probabilitate de 30% să afișeze banner-ul
+        if (Math.random() < 0.3) {
+            document.write(`
+                <div id="banner" style="background: red; color: white; padding: 10px; text-align: center; cursor: pointer; animation: fadeIn 2s;">
+                    <h3>Ofertă: Reducere 50%!</h3>
+                    <p>Click aici pentru a vedea oferta</p>
+                </div>
+            `);
+    
+            // Redirect la click pe banner
+            document.getElementById('banner').addEventListener('click', function() {
+                window.location.href = "{% url 'activate_offer' %}";
+            });
+        }
+    </script>
+    {% endif %}
+    
+    <style>
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Gym Shop</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'product_list' %}">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'login' %}">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'register' %}">Register</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1>Welcome to Gym Shop</h1>
+            <p class="lead">Your one-stop shop for gym supplements and fitness products</p>
+            <a href="{% url 'product_list' %}" class="btn btn-light btn-lg">Explore Products</a>
+        </div>
+    </header>
+
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center">Why Choose Us?</h2>
+            <div class="row mt-4">
+                <div class="col-md-4 text-center">
+                    <i class="bi bi-truck fs-1 text-primary"></i>
+                    <h4>Fast Delivery</h4>
+                    <p>We ensure your orders are delivered quickly and safely.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <i class="bi bi-box-seam fs-1 text-primary"></i>
+                    <h4>High Quality</h4>
+                    <p>Only the best products from trusted suppliers.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <i class="bi bi-person-check fs-1 text-primary"></i>
+                    <h4>Customer Support</h4>
+                    <p>24/7 support for any queries or issues you might have.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>© 2023 Gym Shop. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

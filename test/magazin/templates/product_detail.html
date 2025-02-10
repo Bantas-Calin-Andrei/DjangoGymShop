@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ product.name }}</title>
+</head>
+<body>
+    <h1>{{ product.name }}</h1>
+    <p><strong>Category:</strong> {{ product.category.name }}</p>
+    <p><strong>Price:</strong> ${{ product.price }}</p>
+    <p><strong>Stock:</strong> {{ product.stock }}</p>
+    <p><strong>Description:</strong> {{ product.description }}</p>
+    <p><strong>Views:</strong> {{ product_views }}</p>
+    {% if product.image %}
+        <img src="{{ product.image.url }}" alt="{{ product.name }}">
+    {% endif %}
+    <a href="{% url 'product_list' %}">Back to Products</a>
+</body>
+</html>

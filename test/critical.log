@@ -1,0 +1,9 @@
+# Loc 1: Eșec la un API extern
+try:
+    response = requests.get('https://some_nonexistent_api.com')
+    response.raise_for_status()
+except requests.RequestException as e:
+    logger.critical(f"Eroare critică la apelarea API-ului extern: {str(e)} (loc 1).")
+
+# Loc 2: Eroare de securitate
+logger.critical("Tentativă critică de acces neautorizat la sistem (loc 2).")

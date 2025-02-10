@@ -1,0 +1,16 @@
+<h1>Profil Utilizator</h1>
+<ul>
+    {% for key, value in user_data.items %}
+        <li><strong>{{ key }}:</strong> {{ value }}</li>
+    {% endfor %}
+</ul>
+<a href="{% url 'change_password' %}">Schimbă Parola</a>
+<form method="post" action="{% url 'logout' %}">
+    {% csrf_token %}
+    <button type="submit">Logout</button>
+</form>
+<form method="post" action="{% url 'home' %}">
+    {% csrf_token %}
+    <button type="submit">Home</button>
+</form>
+
